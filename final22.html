@@ -1,0 +1,4299 @@
+
+<h2>-----:SUMMARY:-----:</h2>
+ <table border="1" class="dataframe table table-striped table-bordered" id="styled_table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Item</th>
+      <th>Status</th>
+      <th>Comment</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>RSSI</td>
+      <td><span class="shobhit" style="background-color: rgb(250, 9, 9);color:white; ">NOK</span></td>
+      <td>DIE04225A11, EIE04225A31, DVA61251A11</td>
+    </tr>
+    <tr>
+      <td>VSWR</td>
+      <td><span class="shobhit" style="background-color: rgb(250, 9, 9);color:white; ">NOK</span></td>
+      <td>DIE04225A11,EIE04225A11,KIE04225A11, <br>, VARNC004 PVA61251A11, VARNC004 PVA61251A21, VARNC004 PVA61251A31</td>
+    </tr>
+    <tr>
+      <td>VSWR Delta</td>
+      <td><span class="shobhit" style="background-color: green;color:white;">OK</span></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Alarms</td>
+      <td><span class="shobhit" style="background-color: rgb(250, 9, 9);color:white; ">NOK</span></td>
+      <td>MIE04225A 2023-07-27 12:58:19 m XnC Link to GNodeB Failure GNBCUCPFunction=1 (XnC link problem to gNodeBs listed in Additional Information. AI: PLMN ID-gNB ID 1 : 310:260-8563871,PLMN ID-gNB ID 2 : 310:260-3643761)<br>NIE04225A2 2023-07-27 12:38:37 m XnC Link to GNodeB Failure GNBCUCPFunction=1 (XnC link problem to gNodeBs listed in Additional Information. AI: PLMN ID-gNB ID 1 : 310:260-8563871,PLMN ID-gNB ID 2 : 310:260-3643761)</td>
+    </tr>
+    <tr>
+      <td>RET</td>
+      <td><span class="shobhit" style="background-color: rgb(250, 9, 9);color:white; ">NOK</span></td>
+      <td>MIE04225A AntennaUnitGroup=6-01,AntennaNearUnit=1,RetSubUnit=1</td>
+    </tr>
+    <tr>
+      <td>RET Labels</td>
+      <td><span class="shobhit" style="background-color: green;color:white;"></span></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>TMA</td>
+      <td><span class="shobhit" style="background-color: green;color:white;"></span></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>SFP</td>
+      <td><span class="shobhit" style="background-color: green;color:white;"></span></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Fiber Loss</td>
+      <td><span class="shobhit" style="background-color: rgb(250, 9, 9);color:white; ">NOK</span></td>
+      <td>NIE04225A2 AIE04225A11,AIE04225A12, NIE04225A2 AIE04225A21,AIE04225A22, <br>, VARNC004 PVA61251A11, VARNC004 PVA61251A21, VARNC004 PVA61251A31</td>
+    </tr>
+    <tr>
+      <td>SDIR</td>
+      <td><span class="shobhit" style="background-color: green;color:white;"></span></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>RRU Status</td>
+      <td><span class="shobhit" style="background-color: green;color:white;"></span></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Cell Status</td>
+      <td><span class="shobhit" style="background-color: rgb(250, 9, 9);color:white; ">NOK</span></td>
+      <td>NIE04225A2 AIE04225A11, NIE04225A2 AIE04225A12, NIE04225A2 AIE04225A21, NIE04225A2 AIE04225A22, NIE04225A2 AIE04225A31, NIE04225A2 AIE04225A32, <br>LVA61251A DVA61251A11, LVA61251A LVA61251A11, <br>LVA61251A ZVA61251A11, LVA61251A ZVA61251A21, LVA61251A ZVA61251A31, <br>UVA61251A2 PVA61251A11, <br>UPBS902 CLA411C</td>
+    </tr>
+    <tr>
+      <td>Other</td>
+      <td><span class="shobhit" style="background-color: green;color:white;"></span></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table><pre> 
+<h2>-----:NODE INFO:-----:</h2>
+
+<style>
+th {
+    background-color: blue;
+    color: white;
+    text-align: left;
+}
+
+.table {
+    border-collapse: collapse;
+}
+.table td {
+    padding: 5px;
+    position:relative;
+}
+.shobhit{
+position:absolute;top:0;left:0;bottom:0;right:0; display:flex;justify-content:center;align-items:center; widht:100%; height:100% ;
+}
+
+
+
+
+</style>
+<table border="1" class="dataframe table table-striped table-bordered" id="styled_table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>SiteID</th>
+      <th>RNC</th>
+      <th>Node</th>
+      <th>Software Version</th>
+      <th>ONM IP</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MIE04225A</td>
+      <td>N/A</td>
+      <td>RadioNode LN</td>
+      <td>CXP9024418/15_R74C54 (23.Q2)</td>
+      <td>11.244.16.43</td>
+    </tr>
+    <tr>
+      <td>NIE04225A2</td>
+      <td>N/A</td>
+      <td>RadioNode N</td>
+      <td>CXP2010174/1_R71C54 (23.Q2)</td>
+      <td>11.244.16.42</td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>N/A</td>
+      <td>RadioNode L</td>
+      <td>CXP9024418/15_R37C36 (21.Q3)</td>
+      <td>11.170.49.212</td>
+    </tr>
+    <tr>
+      <td>UVA61251A2</td>
+      <td>VARNC004</td>
+      <td>RBS6131W</td>
+      <td>CXP9023291/3_R4FA25</td>
+      <td>11.170.49.196</td>
+    </tr>
+    <tr>
+      <td>CLA411</td>
+      <td>UPBS902</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>10.249.161.23</td>
+    </tr>
+  </tbody>
+</table> </pre><pre> 
+<h2>-----:VSWR:-----:</h2>
+ 
+<table border="1" class="dataframe table table-striped table-bordered" id="styled_table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Site_Id</th>
+      <th>DATETIME</th>
+      <th>CELL</th>
+      <th>BOARD</th>
+      <th>FRU</th>
+      <th>VSWR1</th>
+      <th>VSWR2</th>
+      <th>VSWR3</th>
+      <th>VSWR4</th>
+      <th>VSWR5</th>
+      <th>VSWR6</th>
+      <th>VSWR7</th>
+      <th>VSWR8</th>
+      <th>DELTA1</th>
+      <th>DELTA2</th>
+      <th>DELTA3</th>
+      <th>DELTA4</th>
+      <th>Serial_Number</th>
+      <th>FAULTS</th>
+      <th>Op.State</th>
+      <th>STATUS</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MIE04225A</td>
+      <td>14:42:20-0700</td>
+      <td>DIE04225A11,EIE04225A11,KIE04225A11</td>
+      <td>RRU4449B71B85A</td>
+      <td>6-01</td>
+      <td><span class="shobhit" style="">1.23</span></td>
+      <td><span class="shobhit" style="">1.16</span></td>
+      <td><span class="shobhit" style="">1.19</span></td>
+      <td><span class="shobhit" style="">1.21</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">0.04</span></td>
+      <td><span class="shobhit" style="">0.05</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td>CF88567144</td>
+      <td>-</td>
+      <td><span class="shobhit" style="background-color: rgb(250, 9, 9);color:white;"> DISABLED</span></td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>MIE04225A</td>
+      <td>14:42:20-0700</td>
+      <td>DIE04225A21,EIE04225A21,KIE04225A21</td>
+      <td>RRU4449B71B85A</td>
+      <td>6-02</td>
+      <td><span class="shobhit" style="">1.18</span></td>
+      <td><span class="shobhit" style="">1.18</span></td>
+      <td><span class="shobhit" style="">1.18</span></td>
+      <td><span class="shobhit" style="">1.21</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">0.00</span></td>
+      <td><span class="shobhit" style="">0.03</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td>CF87909749</td>
+      <td>-</td>
+      <td></td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>MIE04225A</td>
+      <td>14:42:20-0700</td>
+      <td>DIE04225A31,EIE04225A31,KIE04225A31</td>
+      <td>RRU4449B71B85A</td>
+      <td>6-03</td>
+      <td><span class="shobhit" style="">1.22</span></td>
+      <td><span class="shobhit" style="">1.19</span></td>
+      <td><span class="shobhit" style="">1.20</span></td>
+      <td><span class="shobhit" style="">1.22</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">0.02</span></td>
+      <td><span class="shobhit" style="">0.03</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td>B070261927</td>
+      <td>-</td>
+      <td></td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>NIE04225A2</td>
+      <td>14:36:22-0700</td>
+      <td>AIE04225A11,AIE04225A12</td>
+      <td>AIR6449B41*</td>
+      <td>25-01</td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td>-</td>
+      <td>-</td>
+      <td></td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>NIE04225A2</td>
+      <td>14:36:22-0700</td>
+      <td>AIE04225A21,AIE04225A22</td>
+      <td>AIR6449B41*</td>
+      <td>25-02</td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td>-</td>
+      <td>-</td>
+      <td></td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>NIE04225A2</td>
+      <td>14:36:22-0700</td>
+      <td>AIE04225A31,AIE04225A32</td>
+      <td>AIR6449B41*</td>
+      <td>25-03</td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td>-</td>
+      <td>-</td>
+      <td></td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>08:30:32</td>
+      <td>LVA61251A11,ZVA61251A11</td>
+      <td>RRUS0ZB4</td>
+      <td>1-1</td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td>-</td>
+      <td>-</td>
+      <td></td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>08:30:32</td>
+      <td>LVA61251A21,ZVA61251A21</td>
+      <td>RRUS0ZB4</td>
+      <td>2-1</td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td>-</td>
+      <td>-</td>
+      <td></td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>08:30:32</td>
+      <td>LVA61251A31,ZVA61251A31</td>
+      <td>RRUS0ZB4</td>
+      <td>3-1</td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td><span class="shobhit" style="">-</span></td>
+      <td>-</td>
+      <td>-</td>
+      <td></td>
+      <td>-</td>
+    </tr>
+  </tbody>
+</table> </pre><pre> 
+<h2>--------:RSSI--------:</h2>
+ 
+<table border="1" class="dataframe table table-striped table-bordered" id="styled_table">
+  <thead>
+    <tr>
+      <th rowspan="2">Date</th>
+      <th rowspan="2">Time</th>
+      <th rowspan="2">Counter</th>
+      <th colspan="6" halign="left"><div style='text-align:center;'>MIE04225A</div></th>
+      <th colspan="6" halign="left"><div style='text-align:center;'>LVA61251A</div></th>
+    </tr>
+    <tr>
+      
+      
+      
+      <th>DIE04225A11</th>
+      <th>DIE04225A21</th>
+      <th>DIE04225A31</th>
+      <th>EIE04225A11</th>
+      <th>EIE04225A21</th>
+      <th>EIE04225A31</th>
+      <th>DVA61251A11</th>
+      <th>DVA61251A21</th>
+      <th>DVA61251A31</th>
+      <th>LVA61251A11</th>
+      <th>LVA61251A21</th>
+      <th>LVA61251A31</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2023-07-27</td>
+      <td>18:30</td>
+      <td>Int_RadioRecInterferencePucchPwr</td>
+      <td>-117.4</td>
+      <td>-118.1</td>
+      <td>-117.1</td>
+      <td>-116.6</td>
+      <td>-117.5</td>
+      <td>-117.2</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2023-07-27</td>
+      <td>18:30</td>
+      <td>Int_RadioRecInterferencePwr</td>
+      <td>-115.5</td>
+      <td>-116.6</td>
+      <td>-115.0</td>
+      <td>-116.1</td>
+      <td>-117.5</td>
+      <td>-116.7</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2023-07-27</td>
+      <td>18:45</td>
+      <td>Int_RadioRecInterferencePucchPwr</td>
+      <td>-117.7</td>
+      <td>-118.1</td>
+      <td>-116.1</td>
+      <td>-116.2</td>
+      <td>-117.9</td>
+      <td>-117.2</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2023-07-27</td>
+      <td>18:45</td>
+      <td>Int_RadioRecInterferencePwr</td>
+      <td>-115.8</td>
+      <td>-116.1</td>
+      <td>-114.7</td>
+      <td>-115.9</td>
+      <td>-117.9</td>
+      <td>-117.0</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2023-07-27</td>
+      <td>19:00</td>
+      <td>Int_RadioRecInterferencePucchPwr</td>
+      <td><span class="shobhit" style="background-color: rgb(250, 9, 9);color:white;">-109.5</span></td>
+      <td>-118.1</td>
+      <td>-116.2</td>
+      <td>-116.0</td>
+      <td>-117.6</td>
+      <td>-116.8</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2023-07-27</td>
+      <td>19:00</td>
+      <td>Int_RadioRecInterferencePwr</td>
+      <td>-115.7</td>
+      <td>-115.3</td>
+      <td>-113.7</td>
+      <td>-115.7</td>
+      <td>-117.7</td>
+      <td><span class="shobhit" style="background-color: rgb(250, 9, 9);color:white;">-100.6</span></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2023-07-27</td>
+      <td>19:15</td>
+      <td>Int_RadioRecInterferencePucchPwr</td>
+      <td>-117.1</td>
+      <td>-118.2</td>
+      <td>-116.6</td>
+      <td>-115.8</td>
+      <td>-117.4</td>
+      <td>-116.1</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2023-07-27</td>
+      <td>19:15</td>
+      <td>Int_RadioRecInterferencePwr</td>
+      <td>-115.0</td>
+      <td>-116.0</td>
+      <td>-114.9</td>
+      <td>-115.8</td>
+      <td>-117.7</td>
+      <td>-115.8</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2023-07-27</td>
+      <td>19:30</td>
+      <td>Int_RadioRecInterferencePucchPwr</td>
+      <td>-117.1</td>
+      <td>-118.0</td>
+      <td>-116.5</td>
+      <td>-116.3</td>
+      <td>-117.6</td>
+      <td>-115.9</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2023-07-27</td>
+      <td>19:30</td>
+      <td>Int_RadioRecInterferencePwr</td>
+      <td>-115.2</td>
+      <td>-115.8</td>
+      <td>-115.2</td>
+      <td>-116.1</td>
+      <td>-117.3</td>
+      <td>-115.0</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2023-07-27</td>
+      <td>19:45</td>
+      <td>Int_RadioRecInterferencePucchPwr</td>
+      <td>-117.4</td>
+      <td>-118.1</td>
+      <td>-117.1</td>
+      <td>-116.2</td>
+      <td>-117.5</td>
+      <td>-116.6</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2023-07-27</td>
+      <td>19:45</td>
+      <td>Int_RadioRecInterferencePwr</td>
+      <td>-115.0</td>
+      <td>-115.8</td>
+      <td>-115.0</td>
+      <td>-115.6</td>
+      <td>-117.1</td>
+      <td>-115.8</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2023-07-27</td>
+      <td>20:00</td>
+      <td>Int_RadioRecInterferencePucchPwr</td>
+      <td>-117.9</td>
+      <td>-118.1</td>
+      <td>-116.5</td>
+      <td>-116.4</td>
+      <td>-117.5</td>
+      <td>-116.4</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2023-07-27</td>
+      <td>20:00</td>
+      <td>Int_RadioRecInterferencePwr</td>
+      <td>-116.0</td>
+      <td>-115.8</td>
+      <td>-115.1</td>
+      <td>-115.9</td>
+      <td>-117.7</td>
+      <td>-116.2</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2023-07-27</td>
+      <td>20:15</td>
+      <td>Int_RadioRecInterferencePucchPwr</td>
+      <td>-117.7</td>
+      <td>-117.5</td>
+      <td>-115.7</td>
+      <td>-116.4</td>
+      <td>-117.7</td>
+      <td>-116.9</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2023-07-27</td>
+      <td>20:15</td>
+      <td>Int_RadioRecInterferencePwr</td>
+      <td>-115.8</td>
+      <td>-116.1</td>
+      <td>-114.7</td>
+      <td>-115.2</td>
+      <td>-117.9</td>
+      <td>-116.7</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2023-07-27</td>
+      <td>20:30</td>
+      <td>Int_RadioRecInterferencePucchPwr</td>
+      <td>-118.2</td>
+      <td>-117.3</td>
+      <td>-115.4</td>
+      <td>-115.9</td>
+      <td>-117.4</td>
+      <td>-116.7</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2023-07-27</td>
+      <td>20:30</td>
+      <td>Int_RadioRecInterferencePwr</td>
+      <td>-116.4</td>
+      <td>-116.4</td>
+      <td>-114.4</td>
+      <td>-114.9</td>
+      <td>-117.5</td>
+      <td>-115.8</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2023-07-27</td>
+      <td>20:45</td>
+      <td>Int_RadioRecInterferencePucchPwr</td>
+      <td>-117.8</td>
+      <td>-117.4</td>
+      <td>-116.0</td>
+      <td>-116.0</td>
+      <td>-117.4</td>
+      <td>-116.8</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2023-07-27</td>
+      <td>20:45</td>
+      <td>Int_RadioRecInterferencePwr</td>
+      <td>-116.0</td>
+      <td>-115.8</td>
+      <td>-115.0</td>
+      <td>-114.9</td>
+      <td>-117.5</td>
+      <td>-116.6</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2023-07-27</td>
+      <td>21:00</td>
+      <td>Int_RadioRecInterferencePucchPwr</td>
+      <td>-117.8</td>
+      <td>-116.8</td>
+      <td>-114.8</td>
+      <td>-116.0</td>
+      <td>-117.9</td>
+      <td>-116.6</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2023-07-27</td>
+      <td>21:00</td>
+      <td>Int_RadioRecInterferencePwr</td>
+      <td>-115.9</td>
+      <td>-116.1</td>
+      <td>-115.1</td>
+      <td>-114.6</td>
+      <td>-117.8</td>
+      <td>-116.5</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2023-07-27</td>
+      <td>21:15</td>
+      <td>Int_RadioRecInterferencePucchPwr</td>
+      <td>-118.0</td>
+      <td>-117.9</td>
+      <td>-116.7</td>
+      <td>-116.1</td>
+      <td>-117.9</td>
+      <td>-116.8</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2023-07-27</td>
+      <td>21:15</td>
+      <td>Int_RadioRecInterferencePwr</td>
+      <td>-115.8</td>
+      <td>-116.7</td>
+      <td>-115.4</td>
+      <td>-114.4</td>
+      <td>-117.8</td>
+      <td>-116.7</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2022-01-05</td>
+      <td>13:00</td>
+      <td>Int_RadioRecInterferencePucchPwr</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><span class="shobhit" style="background-color: rgb(250, 9, 9);color:white;">-109.5</span></td>
+      <td>-118.9</td>
+      <td>-119.3</td>
+      <td>-120.5</td>
+      <td>-120.4</td>
+      <td>-120.2</td>
+    </tr>
+    <tr>
+      <td>2022-01-05</td>
+      <td>13:00</td>
+      <td>Int_RadioRecInterferencePwr</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>-119.3</td>
+      <td>-117.7</td>
+      <td>-119.1</td>
+      <td>-120.5</td>
+      <td>-120.5</td>
+      <td>-120.4</td>
+    </tr>
+    <tr>
+      <td>2022-01-05</td>
+      <td>13:15</td>
+      <td>Int_RadioRecInterferencePucchPwr</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>-119.5</td>
+      <td>-117.0</td>
+      <td>-119.4</td>
+      <td>-120.5</td>
+      <td>-120.2</td>
+      <td>-120.1</td>
+    </tr>
+    <tr>
+      <td>2022-01-05</td>
+      <td>13:15</td>
+      <td>Int_RadioRecInterferencePwr</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>-119.3</td>
+      <td>-117.4</td>
+      <td>-119.3</td>
+      <td>-120.5</td>
+      <td>-120.2</td>
+      <td>-120.2</td>
+    </tr>
+  </tbody>
+</table> </pre><pre> 
+<h2>-----:X2 Link Status Start:----:</h2>
+
+<style>
+th {
+    background-color: blue;
+    color: white;
+    text-align: left;
+}
+
+.table {
+    border-collapse: collapse;
+}
+.table td {
+    padding: 5px;
+    position:relative;
+}
+.shobhit{
+position:absolute;top:0;left:0;bottom:0;right:0; display:flex;justify-content:center;align-items:center; widht:100%; height:100% ;
+}
+
+
+
+
+</style>
+<table border="1" class="dataframe table table-striped table-bordered" id="styled_table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>SiteID</th>
+      <th>Total No. of X2 Links</th>
+      <th>Total No.of Disabled X2 Link</th>
+      <th>ENABLED_count2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MIE04225A</td>
+      <td>139</td>
+      <td>18</td>
+      <td>121</td>
+    </tr>
+    <tr>
+      <td>NIE04225A2</td>
+      <td>127</td>
+      <td>3</td>
+      <td>124</td>
+    </tr>
+  </tbody>
+</table> </pre><pre> 
+<h2>-----:5GNR CELL STATUS:-----:</h2>
+ 
+<table border="1" class="dataframe table table-striped table-bordered" id="styled_table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Site Id</th>
+      <th>MO</th>
+      <th>administrativeState</th>
+      <th>bandList</th>
+      <th>cellBarred</th>
+      <th>cellRange</th>
+      <th>cellReservedForOperator</th>
+      <th>nRPCI</th>
+      <th>nRSectorCarrierRef</th>
+      <th>nRTAC</th>
+      <th>operationalState</th>
+      <th>ssbFrequency</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MIE04225A</td>
+      <td>KIE04225A11</td>
+      <td>UNLOCKED</td>
+      <td>71</td>
+      <td><span class="shobhit" style=""> NOT_BARRED</span></td>
+      <td></td>
+      <td><span class="shobhit" style=""> NOT_RESERVED</span></td>
+      <td>243</td>
+      <td>NRSectorCarrier=6-01-01</td>
+      <td>3630080</td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>MIE04225A</td>
+      <td>KIE04225A21</td>
+      <td>UNLOCKED</td>
+      <td>71</td>
+      <td><span class="shobhit" style=""> NOT_BARRED</span></td>
+      <td></td>
+      <td><span class="shobhit" style=""> NOT_RESERVED</span></td>
+      <td>817</td>
+      <td>NRSectorCarrier=6-02-01</td>
+      <td>3630080</td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>MIE04225A</td>
+      <td>KIE04225A31</td>
+      <td>UNLOCKED</td>
+      <td>71</td>
+      <td><span class="shobhit" style=""> NOT_BARRED</span></td>
+      <td></td>
+      <td><span class="shobhit" style=""> NOT_RESERVED</span></td>
+      <td>92</td>
+      <td>NRSectorCarrier=6-03-01</td>
+      <td>3630080</td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>NIE04225A2</td>
+      <td>AIE04225A11</td>
+      <td>LOCKED</td>
+      <td>41 90</td>
+      <td><span class="shobhit" style=""> NOT_BARRED</span></td>
+      <td></td>
+      <td><span class="shobhit" style=""> NOT_RESERVED</span></td>
+      <td>288</td>
+      <td>NRSectorCarrier=25-01-01</td>
+      <td>3630080</td>
+      <td><span class="shobhit" style="background-color: orange;color:white;"> DISABLED</span></td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>NIE04225A2</td>
+      <td>AIE04225A12</td>
+      <td>UNLOCKED</td>
+      <td>41 90</td>
+      <td><span class="shobhit" style="background-color: rgb(250, 9, 9); color:white;"> BARRED</span></td>
+      <td></td>
+      <td><span class="shobhit" style=""> NOT_RESERVED</span></td>
+      <td>288</td>
+      <td>NRSectorCarrier=25-01-02</td>
+      <td>3630080</td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>NIE04225A2</td>
+      <td>AIE04225A21</td>
+      <td>UNLOCKED</td>
+      <td>41 90</td>
+      <td><span class="shobhit" style=""> NOT_BARRED</span></td>
+      <td></td>
+      <td><span class="shobhit" style="background-color: rgb(250, 9, 9); color:white;"> RESERVED</span></td>
+      <td>433</td>
+      <td>NRSectorCarrier=25-02-01</td>
+      <td>3630080</td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>NIE04225A2</td>
+      <td>AIE04225A22</td>
+      <td>UNLOCKED</td>
+      <td>41 90</td>
+      <td><span class="shobhit" style="background-color: rgb(250, 9, 9); color:white;"> BARRED</span></td>
+      <td></td>
+      <td><span class="shobhit" style=""> NOT_RESERVED</span></td>
+      <td>433</td>
+      <td>NRSectorCarrier=25-02-02</td>
+      <td>3630080</td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>NIE04225A2</td>
+      <td>AIE04225A31</td>
+      <td>UNLOCKED</td>
+      <td>41 90</td>
+      <td><span class="shobhit" style=""> NOT_BARRED</span></td>
+      <td></td>
+      <td><span class="shobhit" style=""> NOT_RESERVED</span></td>
+      <td>23</td>
+      <td>NRSectorCarrier=25-03-01</td>
+      <td>3630080</td>
+      <td><span class="shobhit" style="background-color: rgb(250, 9, 9);color:white;"> DISABLED</span></td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>NIE04225A2</td>
+      <td>AIE04225A32</td>
+      <td>UNLOCKED</td>
+      <td>41 90</td>
+      <td><span class="shobhit" style="background-color: rgb(250, 9, 9); color:white;"> BARRED</span></td>
+      <td></td>
+      <td><span class="shobhit" style=""> NOT_RESERVED</span></td>
+      <td>23</td>
+      <td>NRSectorCarrier=25-03-02</td>
+      <td>3630080</td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table> </pre><pre> 
+<h2>-----:-----:ALARMS:-----::-----:</h2>
+ 
+<table border="1" class="dataframe table table-striped table-bordered" id="styled_table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Site Id</th>
+      <th>Date & Time (UTC)</th>
+      <th>S</th>
+      <th>Specific Problem</th>
+      <th>MO (Cause/AdditionalInfo)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MIE04225A</td>
+      <td>2023-07-27 12:49:40</td>
+      <td>m</td>
+      <td>External Link Failure</td>
+      <td>ENodeBFunction=1 (X2 link problem to one or several neighbouring eNodeBs. AI: PLMN ID-eNB ID 1 : 310260-98310,PLMN ID-eNB ID 2 : 310260-397899,PLMN ID-eNB ID 3 : 310260-892603)</td>
+    </tr>
+    <tr>
+      <td>MIE04225A</td>
+      <td>2023-07-27 12:58:19</td>
+      <td>m</td>
+      <td>XnC Link to GNodeB Failure</td>
+      <td>GNBCUCPFunction=1 (XnC link problem to gNodeBs listed in Additional Information. AI: PLMN ID-gNB ID 1 : 310:260-8563871,PLMN ID-gNB ID 2 : 310:260-3643761)</td>
+    </tr>
+    <tr>
+      <td>NIE04225A2</td>
+      <td>2023-07-27 12:38:37</td>
+      <td>m</td>
+      <td>XnC Link to GNodeB Failure</td>
+      <td>GNBCUCPFunction=1 (XnC link problem to gNodeBs listed in Additional Information. AI: PLMN ID-gNB ID 1 : 310:260-8563871,PLMN ID-gNB ID 2 : 310:260-3643761)</td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>2022-01-04 18:32:53</td>
+      <td>m</td>
+      <td>External Link Failure</td>
+      <td>ENodeBFunction=1 (X2 link problem to one or several neighbouring eNodeBs. AI: PLMN ID-eNB ID 1 : 310260-58852)</td>
+    </tr>
+  </tbody>
+</table> </pre><pre> 
+<h2>-----: GPS AND SYNC:-----:</h2>
+ 
+<table border="1" class="dataframe table table-striped table-bordered" id="styled_table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Site Id</th>
+      <th>Proxy</th>
+      <th>Adm State</th>
+      <th>Op. State</th>
+      <th>MO</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MIE04225A</td>
+      <td>1957</td>
+      <td>LOCKED</td>
+      <td><span class="shobhit" style="background-color: orange;color:white;"> DISABLED</span></td>
+      <td>Equipment=1,FieldReplaceableUnit=BB-01,SyncPort=1</td>
+    </tr>
+    <tr>
+      <td>MIE04225A</td>
+      <td>5370</td>
+      <td>UNLOCKED</td>
+      <td><span class="shobhit" style=""></span></td>
+      <td>SystemFunctions=1,HealthCheckM=1,HcRule=CommonFunction_CheckSynchronizationClock</td>
+    </tr>
+    <tr>
+      <td>MIE04225A</td>
+      <td>5371</td>
+      <td>UNLOCKED</td>
+      <td><span class="shobhit" style=""></span></td>
+      <td>SystemFunctions=1,HealthCheckM=1,HcRule=CommonFunction_CheckSynchronizationReference</td>
+    </tr>
+    <tr>
+      <td>MIE04225A</td>
+      <td>22394</td>
+      <td>LOCKED</td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+      <td>Transport=1,Synchronization=1,TimeSyncIO=1</td>
+    </tr>
+    <tr>
+      <td>NIE04225A2</td>
+      <td>112</td>
+      <td></td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+      <td>Equipment=1,FieldReplaceableUnit=BB-01,SyncPort=1</td>
+    </tr>
+    <tr>
+      <td>NIE04225A2</td>
+      <td>3693</td>
+      <td>UNLOCKED</td>
+      <td><span class="shobhit" style=""></span></td>
+      <td>SystemFunctions=1,HealthCheckM=1,HcRule=CommonFunction_CheckSynchronizationClock</td>
+    </tr>
+    <tr>
+      <td>NIE04225A2</td>
+      <td>3694</td>
+      <td>UNLOCKED</td>
+      <td><span class="shobhit" style=""></span></td>
+      <td>SystemFunctions=1,HealthCheckM=1,HcRule=CommonFunction_CheckSynchronizationReference</td>
+    </tr>
+    <tr>
+      <td>NIE04225A2</td>
+      <td>16547</td>
+      <td></td>
+      <td><span class="shobhit" style="background-color:rgb(250, 9, 9);color:white;"> DISABLED</span></td>
+      <td>Transport=1,Synchronization=1,TimeSyncIO=1</td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>1610</td>
+      <td></td>
+      <td><span class="shobhit" style="background-color:rgb(250, 9, 9);color:white;"> DISABLED</span></td>
+      <td>Equipment=1,FieldReplaceableUnit=1,SyncPort=1</td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>17922</td>
+      <td></td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+      <td>Transport=1,Ntp=1,NtpFrequencySync=1</td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>17923</td>
+      <td></td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+      <td>Transport=1,Ntp=1,NtpFrequencySync=2</td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>18046</td>
+      <td></td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+      <td>Transport=1,Synchronization=1,TimeSyncIO=1</td>
+    </tr>
+  </tbody>
+</table> </pre><pre> <h2>-----: ANTENNANEARUNIT:-----:</h2>
+<style>
+th {
+    background-color: blue;
+    color: white;
+    text-align: left;
+}
+
+.table {
+    border-collapse: collapse;
+}
+.table td {
+    padding: 5px;
+    position:relative;
+}
+.shobhit{
+position:absolute;top:0;left:0;bottom:0;right:0; display:flex;justify-content:center;align-items:center; widht:100%; height:100% ;
+}
+
+
+
+
+</style>
+<table border="1" class="dataframe table table-striped table-bordered" id="styled_table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Site Id</th>
+      <th>MO</th>
+      <th>Adm State</th>
+      <th>Op. State</th>
+      <th>iuantDeviceType</th>
+      <th>onUnitUniqueId</th>
+      <th>rfPortRef</th>
+      <th>uniqueId</th>
+      <th>ProductNumber</th>
+      <th>SerialNumber</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MIE04225A</td>
+      <td>AntennaUnitGroup=6-01,AntennaNearUnit=1</td>
+      <td>LOCKED</td>
+      <td><span class="shobhit" style="background-color: orange;color:white;"> DISABLED</span></td>
+      <td>S-RET</td>
+      <td>RF06201711007542-R1</td>
+      <td>FieldReplaceableUnit=6-0</td>
+      <td>RfPort=R RF06201711007542-R1</td>
+      <td>ACU-A20-S</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>MIE04225A</td>
+      <td>AntennaUnitGroup=6-02,AntennaNearUnit=1</td>
+      <td>UNLOCKED</td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+      <td>S-RET</td>
+      <td>RF06201711007952-R1</td>
+      <td>FieldReplaceableUnit=6-0</td>
+      <td>RfPort=R RF06201711007952-R1</td>
+      <td>ACU-A20-S</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>MIE04225A</td>
+      <td>AntennaUnitGroup=6-03,AntennaNearUnit=1</td>
+      <td>UNLOCKED</td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+      <td>S-RET</td>
+      <td>RF06201711001872-R1</td>
+      <td>FieldReplaceableUnit=6-0</td>
+      <td>RfPort=R RF06201711001872-R1</td>
+      <td>ACU-A20-S</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table> </pre><pre> <h2>-----: RET Status:-----:</h2>
+<table border="1" class="dataframe table table-striped table-bordered" id="styled_table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Site Id</th>
+      <th>MO</th>
+      <th>electricalAntennaTilt</th>
+      <th>iuantAntennaModelNumber</th>
+      <th>iuantBaseStationId</th>
+      <th>maxTilt</th>
+      <th>minTilt</th>
+      <th>operationalState</th>
+      <th>tiltChangeStatus</th>
+      <th>userLabel</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MIE04225A</td>
+      <td>AntennaUnitGroup=6-01,AntennaNearUnit=1,RetSubUnit=1</td>
+      <td>50</td>
+      <td>AARR24_LB</td>
+      <td>IE04225A_A01DEK</td>
+      <td>120</td>
+      <td>0</td>
+      <td><span class="shobhit" style="background-color: rgb(250, 9, 9);color:white; "> DISABLED</span></td>
+      <td><span class="shobhit" style="background-color: rgb(250, 9, 9);color:white; "> abcd</span></td>
+      <td>IE04225A_A01DEK</td>
+    </tr>
+    <tr>
+      <td>MIE04225A</td>
+      <td>AntennaUnitGroup=6-02,AntennaNearUnit=1,RetSubUnit=1</td>
+      <td>70</td>
+      <td>AARR24_LB</td>
+      <td>IE04225A_B01DEK</td>
+      <td>120</td>
+      <td>0</td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+      <td><span class="shobhit" style=""> IDLE</span></td>
+      <td>IE04225A_B01DEK</td>
+    </tr>
+    <tr>
+      <td>MIE04225A</td>
+      <td>AntennaUnitGroup=6-03,AntennaNearUnit=1,RetSubUnit=1</td>
+      <td>55</td>
+      <td>AARR24_LB</td>
+      <td>IE04225A_C01DEK</td>
+      <td>120</td>
+      <td>0</td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+      <td><span class="shobhit" style=""> IDLE</span></td>
+      <td>IE04225A_C01DEK</td>
+    </tr>
+  </tbody>
+</table> </pre><pre> 
+<h2>-----:-----:NR SECTOR CARRIER STATUS:-----::-----:</h2>
+ 
+
+<style>
+th {
+    background-color: blue;
+    color: white;
+    text-align: left;
+}
+
+.table {
+    border-collapse: collapse;
+}
+.table td {
+    padding: 5px;
+    position:relative;
+}
+.shobhit{
+position:absolute;top:0;left:0;bottom:0;right:0; display:flex;justify-content:center;align-items:center; widht:100%; height:100% ;
+}
+
+
+
+
+</style>
+<table border="1" class="dataframe table table-striped table-bordered" id="styled_table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Site Id</th>
+      <th>MO</th>
+      <th>administrativeState</th>
+      <th>arfcnDL</th>
+      <th>arfcnUL</th>
+      <th>bSChannelBwDL</th>
+      <th>bSChannelBwUL</th>
+      <th>configuredMaxTxPower</th>
+      <th>operationalState</th>
+      <th>reservedBy</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MIE04225A</td>
+      <td>NRSectorCarrier=6-01-01</td>
+      <td>UNLOCKED</td>
+      <td>126900</td>
+      <td>136100</td>
+      <td>15</td>
+      <td>15</td>
+      <td>96000</td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>MIE04225A</td>
+      <td>NRSectorCarrier=6-02-01</td>
+      <td>UNLOCKED</td>
+      <td>126900</td>
+      <td>136100</td>
+      <td>15</td>
+      <td>15</td>
+      <td>96000</td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>MIE04225A</td>
+      <td>NRSectorCarrier=6-03-01</td>
+      <td>UNLOCKED</td>
+      <td>126900</td>
+      <td>136100</td>
+      <td>15</td>
+      <td>15</td>
+      <td>96000</td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>NIE04225A2</td>
+      <td>NRSectorCarrier=25-01-01</td>
+      <td>LOCKED</td>
+      <td>509202</td>
+      <td>509202</td>
+      <td>100</td>
+      <td>100</td>
+      <td>200000</td>
+      <td><span class="shobhit" style="background-color: orange;color:white;"> DISABLED</span></td>
+      <td>NRCellDU=AIE04225A11</td>
+    </tr>
+    <tr>
+      <td>NIE04225A2</td>
+      <td>NRSectorCarrier=25-01-02</td>
+      <td>UNLOCKED</td>
+      <td>523146</td>
+      <td>523146</td>
+      <td>40</td>
+      <td>40</td>
+      <td>40000</td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+      <td>NRCellDU=AIE04225A12</td>
+    </tr>
+    <tr>
+      <td>NIE04225A2</td>
+      <td>NRSectorCarrier=25-02-01</td>
+      <td>UNLOCKED</td>
+      <td>509202</td>
+      <td>509202</td>
+      <td>100</td>
+      <td>100</td>
+      <td>200000</td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+      <td>NRCellDU=AIE04225A21</td>
+    </tr>
+    <tr>
+      <td>NIE04225A2</td>
+      <td>NRSectorCarrier=25-02-02</td>
+      <td>UNLOCKED</td>
+      <td>523146</td>
+      <td>523146</td>
+      <td>40</td>
+      <td>40</td>
+      <td>40000</td>
+      <td><span class="shobhit" style="background-color: rgb(250, 9, 9);color:white;"> DISABLED</span></td>
+      <td>NRCellDU=AIE04225A22</td>
+    </tr>
+    <tr>
+      <td>NIE04225A2</td>
+      <td>NRSectorCarrier=25-03-01</td>
+      <td>UNLOCKED</td>
+      <td>509202</td>
+      <td>509202</td>
+      <td>100</td>
+      <td>100</td>
+      <td>200000</td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+      <td>NRCellDU=AIE04225A31</td>
+    </tr>
+    <tr>
+      <td>NIE04225A2</td>
+      <td>NRSectorCarrier=25-03-02</td>
+      <td>UNLOCKED</td>
+      <td>523146</td>
+      <td>523146</td>
+      <td>40</td>
+      <td>40</td>
+      <td>40000</td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+      <td>NRCellDU=AIE04225A32</td>
+    </tr>
+  </tbody>
+</table> </pre><pre> <h2>-----:LTE SECTOR CARRIER STATUS:-----:</h2>
+
+<style>
+th {
+    background-color: blue;
+    color: white;
+    text-align: left;
+}
+
+.table {
+    border-collapse: collapse;
+}
+.table td {
+    padding: 5px;
+    position:relative;
+}
+.shobhit{
+position:absolute;top:0;left:0;bottom:0;right:0; display:flex;justify-content:center;align-items:center; widht:100%; height:100% ;
+}
+
+
+
+
+</style>
+<table border="1" class="dataframe table table-striped table-bordered" id="styled_table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Site Id</th>
+      <th>MO</th>
+      <th>configuredMaxTxPower</th>
+      <th>operationalState</th>
+      <th>reservedBy</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MIE04225A</td>
+      <td>SectorCarrier=6-01-01</td>
+      <td>64000</td>
+      <td><span class="shobhit" style="background-color: rgb(250, 9, 9);color:white; "> DISABLED</span></td>
+      <td>UlCompGroup=4 EIE04225A11</td>
+    </tr>
+    <tr>
+      <td>MIE04225A</td>
+      <td>SectorCarrier=6-02-01</td>
+      <td>64000</td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+      <td>EIE04225A21 UlCompGroup=4</td>
+    </tr>
+    <tr>
+      <td>MIE04225A</td>
+      <td>SectorCarrier=6-03-01</td>
+      <td>64000</td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+      <td>EIE04225A31 UlCompGroup=4</td>
+    </tr>
+    <tr>
+      <td>MIE04225A</td>
+      <td>SectorCarrier=7-01-01</td>
+      <td>40000</td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+      <td>UlCompGroup=3 DIE04225A11</td>
+    </tr>
+    <tr>
+      <td>MIE04225A</td>
+      <td>SectorCarrier=7-02-01</td>
+      <td>40000</td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+      <td>DIE04225A21 UlCompGroup=3</td>
+    </tr>
+    <tr>
+      <td>MIE04225A</td>
+      <td>SectorCarrier=7-03-01</td>
+      <td>40000</td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+      <td>DIE04225A31 UlCompGroup=3</td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>SectorCarrier=1</td>
+      <td>60000</td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+      <td>NbIotCell=ZVA61251A11 LVA61251A11 UlCompGroup=1</td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>SectorCarrier=2</td>
+      <td>60000</td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+      <td>LVA61251A21 NbIotCell=ZVA61251A21 UlCompGroup=1</td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>SectorCarrier=3</td>
+      <td>60000</td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+      <td>LVA61251A31 NbIotCell=ZVA61251A31 UlCompGroup=1</td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>SectorCarrier=4</td>
+      <td>20000</td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+      <td>UlCompGroup=3 DVA61251A11</td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>SectorCarrier=5</td>
+      <td>40000</td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+      <td>UlCompGroup=3 DVA61251A21</td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>SectorCarrier=6</td>
+      <td>40000</td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+      <td>UlCompGroup=3 DVA61251A31</td>
+    </tr>
+  </tbody>
+</table> </pre><pre> 
+<h2>-----:RILINK:-----:</h2>
+ 
+<table border="1" class="dataframe table table-striped table-bordered" id="styled_table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Site Id</th>
+      <th>MO</th>
+      <th>linkRate</th>
+      <th>operationalState</th>
+      <th>riLinkId</th>
+      <th>riPortRef1</th>
+      <th>riPortRef2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MIE04225A</td>
+      <td>RiLink=BB-01-A-6-01-Data2</td>
+      <td>10100</td>
+      <td><span class="shobhit" style=" "> ENABLED</span></td>
+      <td>BB-01-A-6-01-Data2</td>
+      <td>FieldReplaceableUnit=BB-01,RiPort=A</td>
+      <td>FieldReplaceableUnit=6-01,RiPort=DATA_2</td>
+    </tr>
+    <tr>
+      <td>MIE04225A</td>
+      <td>RiLink=BB-01-B-6-02-Data2</td>
+      <td>10100</td>
+      <td><span class="shobhit" style=" "> ENABLED</span></td>
+      <td>BB-01-B-6-02-Data2</td>
+      <td>FieldReplaceableUnit=BB-01,RiPort=B</td>
+      <td>FieldReplaceableUnit=6-02,RiPort=DATA_2</td>
+    </tr>
+    <tr>
+      <td>MIE04225A</td>
+      <td>RiLink=BB-01-C-6-03-Data2</td>
+      <td>10100</td>
+      <td><span class="shobhit" style=" "> ENABLED</span></td>
+      <td>BB-01-C-6-03-Data2</td>
+      <td>FieldReplaceableUnit=BB-01,RiPort=C</td>
+      <td>FieldReplaceableUnit=6-03,RiPort=DATA_2</td>
+    </tr>
+    <tr>
+      <td>NIE04225A2</td>
+      <td>RiLink=BB-01-A-25-01-Data2</td>
+      <td>25700</td>
+      <td><span class="shobhit" style="background-color:rgb(250, 9, 9);color:white; "> DISABLED</span></td>
+      <td>BB-01-A-25-01-Data2</td>
+      <td>FieldReplaceableUnit=BB-01,RiPort=A</td>
+      <td>FieldReplaceableUnit=25-01,RiPort=DATA_2</td>
+    </tr>
+    <tr>
+      <td>NIE04225A2</td>
+      <td>RiLink=BB-01-B-25-01-Data3</td>
+      <td>25700</td>
+      <td><span class="shobhit" style=" "> ENABLED</span></td>
+      <td>BB-01-B-25-01-Data3</td>
+      <td>FieldReplaceableUnit=BB-01,RiPort=B</td>
+      <td>FieldReplaceableUnit=25-01,RiPort=DATA_3</td>
+    </tr>
+    <tr>
+      <td>NIE04225A2</td>
+      <td>RiLink=BB-01-C-25-02-Data2</td>
+      <td>25700</td>
+      <td><span class="shobhit" style=" "> ENABLED</span></td>
+      <td>BB-01-C-25-02-Data2</td>
+      <td>FieldReplaceableUnit=BB-01,RiPort=C</td>
+      <td>FieldReplaceableUnit=25-02,RiPort=DATA_2</td>
+    </tr>
+    <tr>
+      <td>NIE04225A2</td>
+      <td>RiLink=BB-01-D-25-02-Data3</td>
+      <td>25700</td>
+      <td><span class="shobhit" style=" "> ENABLED</span></td>
+      <td>BB-01-D-25-02-Data3</td>
+      <td>FieldReplaceableUnit=BB-01,RiPort=D</td>
+      <td>FieldReplaceableUnit=25-02,RiPort=DATA_3</td>
+    </tr>
+    <tr>
+      <td>NIE04225A2</td>
+      <td>RiLink=BB-01-E-25-03-Data2</td>
+      <td>25700</td>
+      <td><span class="shobhit" style=" "> ENABLED</span></td>
+      <td>BB-01-E-25-03-Data2</td>
+      <td>FieldReplaceableUnit=BB-01,RiPort=E</td>
+      <td>FieldReplaceableUnit=25-03,RiPort=DATA_2</td>
+    </tr>
+    <tr>
+      <td>NIE04225A2</td>
+      <td>RiLink=BB-01-F-25-03-Data3</td>
+      <td>25700</td>
+      <td><span class="shobhit" style=" "> ENABLED</span></td>
+      <td>BB-01-F-25-03-Data3</td>
+      <td>FieldReplaceableUnit=BB-01,RiPort=F</td>
+      <td>FieldReplaceableUnit=25-03,RiPort=DATA_3</td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>RiLink=1</td>
+      <td>2500</td>
+      <td><span class="shobhit" style=" "> ENABLED</span></td>
+      <td>1</td>
+      <td>FieldReplaceableUnit=1,RiPort=A</td>
+      <td>FieldReplaceableUnit=RRU-1-1,RiPort=DATA_1</td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>RiLink=11</td>
+      <td>2500</td>
+      <td><span class="shobhit" style=" "> ENABLED</span></td>
+      <td>11</td>
+      <td>FieldReplaceableUnit=1,RiPort=L</td>
+      <td>FieldReplaceableUnit=RRU-3-1,RiPort=DATA_1</td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>RiLink=13</td>
+      <td>2500</td>
+      <td><span class="shobhit" style=" "> ENABLED</span></td>
+      <td>13</td>
+      <td>FieldReplaceableUnit=1,RiPort=N</td>
+      <td>FieldReplaceableUnit=RRU-6-1,RiPort=DATA_1</td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>RiLink=14</td>
+      <td>2500</td>
+      <td><span class="shobhit" style=" "> ENABLED</span></td>
+      <td>14</td>
+      <td>FieldReplaceableUnit=1,RiPort=P</td>
+      <td>FieldReplaceableUnit=RRU-3-2,RiPort=DATA_2</td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>RiLink=3</td>
+      <td>2500</td>
+      <td><span class="shobhit" style=" "> ENABLED</span></td>
+      <td>3</td>
+      <td>FieldReplaceableUnit=1,RiPort=C</td>
+      <td>FieldReplaceableUnit=RRU-4-1,RiPort=DATA_1</td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>RiLink=4</td>
+      <td>2500</td>
+      <td><span class="shobhit" style=" "> ENABLED</span></td>
+      <td>4</td>
+      <td>FieldReplaceableUnit=1,RiPort=D</td>
+      <td>FieldReplaceableUnit=RRU-1-2,RiPort=DATA_2</td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>RiLink=6</td>
+      <td>2500</td>
+      <td><span class="shobhit" style=" "> ENABLED</span></td>
+      <td>6</td>
+      <td>FieldReplaceableUnit=1,RiPort=F</td>
+      <td>FieldReplaceableUnit=RRU-2-1,RiPort=DATA_1</td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>RiLink=8</td>
+      <td>2500</td>
+      <td><span class="shobhit" style=" "> ENABLED</span></td>
+      <td>8</td>
+      <td>FieldReplaceableUnit=1,RiPort=H</td>
+      <td>FieldReplaceableUnit=RRU-5-1,RiPort=DATA_1</td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>RiLink=9</td>
+      <td>2500</td>
+      <td><span class="shobhit" style=" "> ENABLED</span></td>
+      <td>9</td>
+      <td>FieldReplaceableUnit=1,RiPort=J</td>
+      <td>FieldReplaceableUnit=RRU-2-2,RiPort=DATA_2</td>
+    </tr>
+  </tbody>
+</table> </pre><pre> <h2>-----:LTE FiberLOss:-----:</h2>
+<table border="1" class="dataframe table table-striped table-bordered" id="styled_table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Site Id</th>
+      <th>Cell</th>
+      <th>ID</th>
+      <th>LINK</th>
+      <th>RiL</th>
+      <th>WL1</th>
+      <th>TEMP1</th>
+      <th>TXbs1</th>
+      <th>TXdBm1</th>
+      <th>RXdBm1</th>
+      <th>BER1</th>
+      <th>WL2</th>
+      <th>TEMP2</th>
+      <th>TXbs2</th>
+      <th>TXdBm2</th>
+      <th>RXdBm2</th>
+      <th>BER2</th>
+      <th>DlLoss</th>
+      <th>UlLoss</th>
+      <th>LENGTH</th>
+      <th>TT</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MIE04225A</td>
+      <td>DIE04225A11,EIE04225A11,KIE04225A11</td>
+      <td>1</td>
+      <td>Up</td>
+      <td>BB-01-A-6-01-Data2</td>
+      <td>1310.00</td>
+      <td>45C</td>
+      <td>14%</td>
+      <td>-3.55</td>
+      <td>-2.45</td>
+      <td><span class="shobhit" style="">0</span></td>
+      <td>1310.00</td>
+      <td>49C</td>
+      <td>33%</td>
+      <td>-1.48</td>
+      <td>-4.17</td>
+      <td><span class="shobhit"style="">0</span></td>
+      <td><span class="shobhit" style="">0.62 </span></td>
+      <td><span class="shobhit" style="">0.97 </span></td>
+      <td>53m</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>MIE04225A</td>
+      <td>DIE04225A21,EIE04225A21,KIE04225A21</td>
+      <td>2</td>
+      <td>Up</td>
+      <td>BB-01-B-6-02-Data2</td>
+      <td>1310.00</td>
+      <td>49C</td>
+      <td>10%</td>
+      <td>-2.76</td>
+      <td>-1.84</td>
+      <td><span class="shobhit" style="">0</span></td>
+      <td>1310.00</td>
+      <td>49C</td>
+      <td>39%</td>
+      <td>-1.10</td>
+      <td>-4.70</td>
+      <td><span class="shobhit"style="">0</span></td>
+      <td><span class="shobhit" style="">1.94 </span></td>
+      <td><span class="shobhit" style="">0.74 </span></td>
+      <td>53m</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>MIE04225A</td>
+      <td>DIE04225A31,EIE04225A31,KIE04225A31</td>
+      <td>3</td>
+      <td>Up</td>
+      <td>BB-01-C-6-03-Data2</td>
+      <td>1310.00</td>
+      <td>49C</td>
+      <td>12%</td>
+      <td>-1.38</td>
+      <td>-2.72</td>
+      <td><span class="shobhit" style="">0</span></td>
+      <td>1310.00</td>
+      <td>47C</td>
+      <td>40%</td>
+      <td>-2.02</td>
+      <td>-0.38</td>
+      <td><span class="shobhit"style="">0</span></td>
+      <td><span class="shobhit" style="">-1 </span></td>
+      <td><span class="shobhit" style="">0.7 </span></td>
+      <td>52m</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>NIE04225A2</td>
+      <td>AIE04225A11,AIE04225A12</td>
+      <td>1</td>
+      <td>Up</td>
+      <td>BB-01-A-25-01-Data2</td>
+      <td>1310.00</td>
+      <td>53C</td>
+      <td>64%</td>
+      <td>-1.52</td>
+      <td>-3.21</td>
+      <td><span class="shobhit" style="background-color: rgb(250, 9, 9);color:white;">1</span></td>
+      <td>1310.00</td>
+      <td>70C</td>
+      <td>65%</td>
+      <td>-2.06</td>
+      <td>-8.81</td>
+      <td><span class="shobhit"style="">0/0</span></td>
+      <td><span class="shobhit" style="background-color: red;color:white;">7.29</span></td>
+      <td><span class="shobhit" style="">1.15</span></td>
+      <td>43m</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>NIE04225A2</td>
+      <td>AIE04225A11,AIE04225A12</td>
+      <td>2</td>
+      <td>Up</td>
+      <td>BB-01-B-25-01-Data3</td>
+      <td>1310.00</td>
+      <td>52C</td>
+      <td>63%</td>
+      <td>-1.20</td>
+      <td>-1.64</td>
+      <td><span class="shobhit" style="">0/0</span></td>
+      <td>1310.00</td>
+      <td>67C</td>
+      <td>68%</td>
+      <td>-1.26</td>
+      <td>-1.52</td>
+      <td><span class="shobhit"style="">0/0</span></td>
+      <td><span class="shobhit" style="">0.32</span></td>
+      <td><span class="shobhit" style="">0.38</span></td>
+      <td></td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>NIE04225A2</td>
+      <td>AIE04225A21,AIE04225A22</td>
+      <td>3</td>
+      <td>Up</td>
+      <td>BB-01-C-25-02-Data2</td>
+      <td>1310.00</td>
+      <td>53C</td>
+      <td>64%</td>
+      <td>-1.32</td>
+      <td>-3.13</td>
+      <td><span class="shobhit" style="">0/0</span></td>
+      <td>1310.00</td>
+      <td>65C</td>
+      <td>66%</td>
+      <td>-1.78</td>
+      <td>-1.91</td>
+      <td><span class="shobhit"style="background-color: rgb(250, 9, 9);color:white;">4/4</span></td>
+      <td><span class="shobhit" style="">0.59</span></td>
+      <td><span class="shobhit" style="">1.35</span></td>
+      <td>42m</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>NIE04225A2</td>
+      <td>AIE04225A21,AIE04225A22</td>
+      <td>4</td>
+      <td>Up</td>
+      <td>BB-01-D-25-02-Data3</td>
+      <td>1310.00</td>
+      <td>52C</td>
+      <td>65%</td>
+      <td>-0.69</td>
+      <td>-2.77</td>
+      <td><span class="shobhit" style="">0/0</span></td>
+      <td>1310.00</td>
+      <td>63C</td>
+      <td>64%</td>
+      <td>-2.85</td>
+      <td>-1.10</td>
+      <td><span class="shobhit"style="">0/0</span></td>
+      <td><span class="shobhit" style="">0.41</span></td>
+      <td><span class="shobhit" style="">-0.08</span></td>
+      <td>42m</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>NIE04225A2</td>
+      <td>AIE04225A31,AIE04225A32</td>
+      <td>5</td>
+      <td>Up</td>
+      <td>BB-01-E-25-03-Data2</td>
+      <td>1310.00</td>
+      <td>51C</td>
+      <td>64%</td>
+      <td>-1.05</td>
+      <td>-0.48</td>
+      <td><span class="shobhit" style="">0/0</span></td>
+      <td>1310.00</td>
+      <td>70C</td>
+      <td>74%</td>
+      <td>-0.10</td>
+      <td>-1.30</td>
+      <td><span class="shobhit"style="">0/0</span></td>
+      <td><span class="shobhit" style="">0.25</span></td>
+      <td><span class="shobhit" style="">0.38</span></td>
+      <td></td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>NIE04225A2</td>
+      <td>AIE04225A31,AIE04225A32</td>
+      <td>6</td>
+      <td>Up</td>
+      <td>BB-01-F-25-03-Data3</td>
+      <td>1310.00</td>
+      <td>49C</td>
+      <td>64%</td>
+      <td>-0.79</td>
+      <td>-3.30</td>
+      <td><span class="shobhit" style="">0/0</span></td>
+      <td>1310.00</td>
+      <td>68C</td>
+      <td>67%</td>
+      <td>-1.89</td>
+      <td>-2.17</td>
+      <td><span class="shobhit"style="">0/0</span></td>
+      <td><span class="shobhit" style="">1.38</span></td>
+      <td><span class="shobhit" style="">1.41</span></td>
+      <td>43m</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>LVA61251A11,ZVA61251A11</td>
+      <td>1</td>
+      <td>Up</td>
+      <td>1</td>
+      <td>1310.00</td>
+      <td>44C</td>
+      <td>20%</td>
+      <td>-4.92</td>
+      <td>-5.50</td>
+      <td><span class="shobhit" style="">0</span></td>
+      <td>1310.00</td>
+      <td>10C</td>
+      <td>15%</td>
+      <td>-4.98</td>
+      <td>-5.04</td>
+      <td><span class="shobhit"style="">0</span></td>
+      <td><span class="shobhit" style="">0.12</span></td>
+      <td><span class="shobhit" style="">0.52</span></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>LVA61251A11,ZVA61251A11</td>
+      <td>2</td>
+      <td>Up</td>
+      <td>3</td>
+      <td>1310.00</td>
+      <td>48C</td>
+      <td>23%</td>
+      <td>-6.44</td>
+      <td>-8.86</td>
+      <td><span class="shobhit" style="">0</span></td>
+      <td>1310.00</td>
+      <td>20C</td>
+      <td>19%</td>
+      <td>-6.56</td>
+      <td>-7.03</td>
+      <td><span class="shobhit"style="">0</span></td>
+      <td><span class="shobhit" style="">0.59</span></td>
+      <td><span class="shobhit" style="">2.3</span></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>LVA61251A21,ZVA61251A21</td>
+      <td>3</td>
+      <td>Up</td>
+      <td>4</td>
+      <td>1310.00</td>
+      <td>47C</td>
+      <td>21%</td>
+      <td>-5.35</td>
+      <td>-5.64</td>
+      <td><span class="shobhit" style="">0</span></td>
+      <td>1310.00</td>
+      <td>35C</td>
+      <td>27%</td>
+      <td>-6.02</td>
+      <td>-5.44</td>
+      <td><span class="shobhit"style="">0</span></td>
+      <td><span class="shobhit" style="">0.09</span></td>
+      <td><span class="shobhit" style="">-0.38</span></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>LVA61251A21,ZVA61251A21</td>
+      <td>4</td>
+      <td>Up</td>
+      <td>6</td>
+      <td>1310.00</td>
+      <td>45C</td>
+      <td>20%</td>
+      <td>-5.17</td>
+      <td>-5.13</td>
+      <td><span class="shobhit" style="">0</span></td>
+      <td>1310.00</td>
+      <td>19C</td>
+      <td>16%</td>
+      <td>-4.95</td>
+      <td>-6.11</td>
+      <td><span class="shobhit"style="">0</span></td>
+      <td><span class="shobhit" style="">0.94</span></td>
+      <td><span class="shobhit" style="">0.18</span></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>LVA61251A31,ZVA61251A31</td>
+      <td>5</td>
+      <td>Up</td>
+      <td>8</td>
+      <td>1310.00</td>
+      <td>49C</td>
+      <td>21%</td>
+      <td>-6.48</td>
+      <td>-6.07</td>
+      <td><span class="shobhit" style="">0</span></td>
+      <td>1310.00</td>
+      <td>24C</td>
+      <td>17%</td>
+      <td>-6.25</td>
+      <td>-6.38</td>
+      <td><span class="shobhit"style="">0</span></td>
+      <td><span class="shobhit" style="">-0.1</span></td>
+      <td><span class="shobhit" style="">-0.18</span></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>LVA61251A31,ZVA61251A31</td>
+      <td>6</td>
+      <td>Up</td>
+      <td>9</td>
+      <td>1310.00</td>
+      <td>48C</td>
+      <td>20%</td>
+      <td>-5.59</td>
+      <td>-6.20</td>
+      <td><span class="shobhit" style="">0</span></td>
+      <td>1310.00</td>
+      <td>29C</td>
+      <td>28%</td>
+      <td>-5.90</td>
+      <td>-7.35</td>
+      <td><span class="shobhit"style="">0</span></td>
+      <td><span class="shobhit" style="">1.76</span></td>
+      <td><span class="shobhit" style="">0.3</span></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>LVA61251A11,ZVA61251A11</td>
+      <td>7</td>
+      <td>Up</td>
+      <td>11</td>
+      <td>1310.00</td>
+      <td>44C</td>
+      <td>20%</td>
+      <td>-4.87</td>
+      <td>-4.19</td>
+      <td><span class="shobhit" style="">0</span></td>
+      <td>1310.00</td>
+      <td>15C</td>
+      <td>16%</td>
+      <td>-5.00</td>
+      <td>-4.78</td>
+      <td><span class="shobhit"style="">0</span></td>
+      <td><span class="shobhit" style="">-0.09</span></td>
+      <td><span class="shobhit" style="">-0.81</span></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>LVA61251A21,ZVA61251A21</td>
+      <td>8</td>
+      <td>Up</td>
+      <td>13</td>
+      <td>1310.00</td>
+      <td>47C</td>
+      <td>19%</td>
+      <td>-6.46</td>
+      <td>-6.56</td>
+      <td><span class="shobhit" style="">0</span></td>
+      <td>1310.00</td>
+      <td>27C</td>
+      <td>22%</td>
+      <td>-6.40</td>
+      <td>-6.38</td>
+      <td><span class="shobhit"style="">0</span></td>
+      <td><span class="shobhit" style="">-0.08</span></td>
+      <td><span class="shobhit" style="">0.16</span></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>LVA61251A31,ZVA61251A31</td>
+      <td>9</td>
+      <td>Up</td>
+      <td>14</td>
+      <td>1310.00</td>
+      <td>47C</td>
+      <td>21%</td>
+      <td>-5.51</td>
+      <td>-6.93</td>
+      <td><span class="shobhit" style="">0</span></td>
+      <td>1310.00</td>
+      <td>30C</td>
+      <td>27%</td>
+      <td>-5.87</td>
+      <td>-6.04</td>
+      <td><span class="shobhit"style="">0</span></td>
+      <td><span class="shobhit" style="">0.53</span></td>
+      <td><span class="shobhit" style="">1.06</span></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table> </pre><pre> 
+<h2>-----:UMTS Fiber Loss:-----:</h2>
+
+<style>
+th {
+    background-color: blue;
+    color: white;
+    text-align: left;
+}
+
+.table {
+    border-collapse: collapse;
+}
+.table td {
+    padding: 5px;
+    position:relative;
+}
+.shobhit{
+position:absolute;top:0;left:0;bottom:0;right:0; display:flex;justify-content:center;align-items:center; widht:100%; height:100% ;
+}
+
+
+
+
+</style>
+<table border="1" class="dataframe table table-striped table-bordered" id="styled_table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>RNC</th>
+      <th>Site Id</th>
+      <th>Cell</th>
+      <th>BER1</th>
+      <th>BER2</th>
+      <th>DlLoss</th>
+      <th>UlLoss</th>
+      <th>VSWR (RL)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>UVA61251A2</td>
+      <td>VARNC004</td>
+      <td>PVA61251A11</td>
+      <td><span class="shobhit" style="background-color: rgb(250, 9, 9);color:white;">3</span></td>
+      <td><span class="shobhit"style="">0</span></td>
+      <td><span class="shobhit" style="">1.45</span></td>
+      <td><span class="shobhit" style="background-color: rgb(250, 9, 9);color:white;">5.9</span></td>
+      <td><span class="shobhit" style="background-color: rgb(250, 9, 9);color:white;">AIR21</span></td>
+    </tr>
+    <tr>
+      <td>UVA61251A2</td>
+      <td>VARNC004</td>
+      <td>PVA61251A21</td>
+      <td><span class="shobhit" style="">0</span></td>
+      <td><span class="shobhit"style="">0</span></td>
+      <td><span class="shobhit" style="background-color: rgb(250, 9, 9);color:white;">-4.02</span></td>
+      <td><span class="shobhit" style="">0.9</span></td>
+      <td><span class="shobhit" style="background-color: rgb(250, 9, 9);color:white;">AIR21</span></td>
+    </tr>
+    <tr>
+      <td>UVA61251A2</td>
+      <td>VARNC004</td>
+      <td>PVA61251A31</td>
+      <td><span class="shobhit" style="">0</span></td>
+      <td><span class="shobhit"style="background-color: rgb(250, 9, 9);color:white;">2</span></td>
+      <td><span class="shobhit" style="background-color: rgb(250, 9, 9);color:white;">4.6</span></td>
+      <td><span class="shobhit" style="">0.63</span></td>
+      <td><span class="shobhit" style="background-color: rgb(250, 9, 9);color:white;">AIR21</span></td>
+    </tr>
+  </tbody>
+</table> </pre><pre> <h2>-----:SFP Details:-----:</h2>
+<table border="1" class="dataframe table table-striped table-bordered" id="styled_table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Site Id</th>
+      <th>Cell</th>
+      <th>ID</th>
+      <th>RiL</th>
+      <th>BOARD</th>
+      <th>SFPLNH</th>
+      <th>PORT</th>
+      <th>VENDOR</th>
+      <th>VENDORPROD</th>
+      <th>REV</th>
+      <th>SERIAL</th>
+      <th>DATE</th>
+      <th>ERICSSONPROD</th>
+      <th>WL</th>
+      <th>TEMP</th>
+      <th>TXbs</th>
+      <th>TXdBm</th>
+      <th>RXdBm</th>
+      <th>BER</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MIE04225A</td>
+      <td>DIE04225A11,EIE04225A11,KIE04225A11</td>
+      <td>1</td>
+      <td>BB-01-A-6-01-Data2</td>
+      <td>BB6630</td>
+      <td>000100</td>
+      <td>1</td>
+      <td>FINISARCORP.</td>
+      <td>FTLX1370W4BTL-E7</td>
+      <td>A</td>
+      <td>PZG11NY</td>
+      <td>20180419</td>
+      <td>RDH10265/2 R1A</td>
+      <td>1310.00</td>
+      <td>45C</td>
+      <td>14%</td>
+      <td>-3.55</td>
+      <td>-2.45</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>MIE04225A</td>
+      <td>DIE04225A21,EIE04225A21,KIE04225A21</td>
+      <td>2</td>
+      <td>BB-01-B-6-02-Data2</td>
+      <td>BB6630</td>
+      <td>000100</td>
+      <td>2</td>
+      <td>FINISARCORP.</td>
+      <td>FTLX1370W4BTL-E7</td>
+      <td>A</td>
+      <td>PZE1H9Z</td>
+      <td>20180408</td>
+      <td>RDH10265/2 R1A</td>
+      <td>1310.00</td>
+      <td>49C</td>
+      <td>10%</td>
+      <td>-2.76</td>
+      <td>-1.84</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>MIE04225A</td>
+      <td>DIE04225A31,EIE04225A31,KIE04225A31</td>
+      <td>3</td>
+      <td>BB-01-C-6-03-Data2</td>
+      <td>BB6630</td>
+      <td>000100</td>
+      <td>3</td>
+      <td>FINISARCORP.</td>
+      <td>FTLX1370W4BTL-E7</td>
+      <td>A</td>
+      <td>PZE20XM</td>
+      <td>20180409</td>
+      <td>RDH10265/2 R1A</td>
+      <td>1310.00</td>
+      <td>49C</td>
+      <td>12%</td>
+      <td>-1.38</td>
+      <td>-2.72</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>MIE04225A</td>
+      <td>DIE04225A11,EIE04225A11,KIE04225A11</td>
+      <td>1</td>
+      <td>BB-01-A-6-01-Data2</td>
+      <td>RRU4449B71B85A</td>
+      <td>BXP_2</td>
+      <td>1</td>
+      <td>DELTA</td>
+      <td>LCP-10G3B4HDRME2</td>
+      <td>A</td>
+      <td>1744091A0416174</td>
+      <td>20171104</td>
+      <td>RDH10265/2 R1A</td>
+      <td>1310.00</td>
+      <td>49C</td>
+      <td>33%</td>
+      <td>-1.48</td>
+      <td>-4.17</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>MIE04225A</td>
+      <td>DIE04225A21,EIE04225A21,KIE04225A21</td>
+      <td>2</td>
+      <td>BB-01-B-6-02-Data2</td>
+      <td>RRU4449B71B85A</td>
+      <td>BXP_3</td>
+      <td>1</td>
+      <td>DELTA</td>
+      <td>LCP-10G3B4HDRME2</td>
+      <td>A</td>
+      <td>1750091A0403540</td>
+      <td>20171211</td>
+      <td>RDH10265/2 R1A</td>
+      <td>1310.00</td>
+      <td>49C</td>
+      <td>39%</td>
+      <td>-1.10</td>
+      <td>-4.70</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>MIE04225A</td>
+      <td>DIE04225A31,EIE04225A31,KIE04225A31</td>
+      <td>3</td>
+      <td>BB-01-C-6-03-Data2</td>
+      <td>RRU4449B71B85A</td>
+      <td>BXP_4</td>
+      <td>1</td>
+      <td>DELTA</td>
+      <td>LCP-10G3B4HDRME2</td>
+      <td>A</td>
+      <td>1744091A0416140</td>
+      <td>20171104</td>
+      <td>RDH10265/2 R1A</td>
+      <td>1310.00</td>
+      <td>47C</td>
+      <td>40%</td>
+      <td>-2.02</td>
+      <td>-0.38</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>NIE04225A2</td>
+      <td>AIE04225A11,AIE04225A12</td>
+      <td>1</td>
+      <td>BB-01-A-25-01-Data2</td>
+      <td>BB6648</td>
+      <td>000100</td>
+      <td>1</td>
+      <td>ERICSSON</td>
+      <td>FTLF1436W5BTD-E7</td>
+      <td>A</td>
+      <td>CD4S46A0GU</td>
+      <td>20201005</td>
+      <td>RDH10275/2 R1A</td>
+      <td>1310.00</td>
+      <td>53C</td>
+      <td>64%</td>
+      <td>-1.52</td>
+      <td>-3.21</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>NIE04225A2</td>
+      <td>AIE04225A11,AIE04225A12</td>
+      <td>2</td>
+      <td>BB-01-B-25-01-Data3</td>
+      <td>BB6648</td>
+      <td>000100</td>
+      <td>2</td>
+      <td>ERICSSON</td>
+      <td>FTLF1436W5BTD-E7</td>
+      <td>A</td>
+      <td>CD4S4EA4CW</td>
+      <td>20201021</td>
+      <td>RDH10275/2 R1A</td>
+      <td>1310.00</td>
+      <td>52C</td>
+      <td>63%</td>
+      <td>-1.20</td>
+      <td>-1.64</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>NIE04225A2</td>
+      <td>AIE04225A21,AIE04225A22</td>
+      <td>3</td>
+      <td>BB-01-C-25-02-Data2</td>
+      <td>BB6648</td>
+      <td>000100</td>
+      <td>3</td>
+      <td>ERICSSON</td>
+      <td>FTLF1436W5BTD-E7</td>
+      <td>A</td>
+      <td>CD4S4AA3Y4</td>
+      <td>20201005</td>
+      <td>RDH10275/2 R1A</td>
+      <td>1310.00</td>
+      <td>53C</td>
+      <td>64%</td>
+      <td>-1.32</td>
+      <td>-3.13</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>NIE04225A2</td>
+      <td>AIE04225A21,AIE04225A22</td>
+      <td>4</td>
+      <td>BB-01-D-25-02-Data3</td>
+      <td>BB6648</td>
+      <td>000100</td>
+      <td>4</td>
+      <td>ERICSSON</td>
+      <td>FTLF1436W5BTD-E7</td>
+      <td>A</td>
+      <td>CD4S4CA3WN</td>
+      <td>20200929</td>
+      <td>RDH10275/2 R1A</td>
+      <td>1310.00</td>
+      <td>52C</td>
+      <td>65%</td>
+      <td>-0.69</td>
+      <td>-2.77</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>NIE04225A2</td>
+      <td>AIE04225A31,AIE04225A32</td>
+      <td>5</td>
+      <td>BB-01-E-25-03-Data2</td>
+      <td>BB6648</td>
+      <td>000100</td>
+      <td>5</td>
+      <td>ERICSSON</td>
+      <td>FTLF1436W5BTD-E7</td>
+      <td>A</td>
+      <td>CD4S4CA109</td>
+      <td>20200929</td>
+      <td>RDH10275/2 R1A</td>
+      <td>1310.00</td>
+      <td>51C</td>
+      <td>64%</td>
+      <td>-1.05</td>
+      <td>-0.48</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>NIE04225A2</td>
+      <td>AIE04225A31,AIE04225A32</td>
+      <td>6</td>
+      <td>BB-01-F-25-03-Data3</td>
+      <td>BB6648</td>
+      <td>000100</td>
+      <td>6</td>
+      <td>ERICSSON</td>
+      <td>FTLF1436W5BTD-E7</td>
+      <td>A</td>
+      <td>CD4S47A03M</td>
+      <td>20201007</td>
+      <td>RDH10275/2 R1A</td>
+      <td>1310.00</td>
+      <td>49C</td>
+      <td>64%</td>
+      <td>-0.79</td>
+      <td>-3.30</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>NIE04225A2</td>
+      <td>AIE04225A11,AIE04225A12</td>
+      <td>1</td>
+      <td>BB-01-A-25-01-Data2</td>
+      <td>AIR6449B41*</td>
+      <td>fru_2048</td>
+      <td>1</td>
+      <td>ERICSSON</td>
+      <td>FTLF1436W5BTD-E7</td>
+      <td>A</td>
+      <td>CD4S4CA8QH</td>
+      <td>20201007</td>
+      <td>RDH10275/2 R1A</td>
+      <td>1310.00</td>
+      <td>70C</td>
+      <td>65%</td>
+      <td>-2.06</td>
+      <td>-8.81</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>NIE04225A2</td>
+      <td>AIE04225A11,AIE04225A12</td>
+      <td>2</td>
+      <td>BB-01-B-25-01-Data3</td>
+      <td>AIR6449B41*</td>
+      <td>fru_2048</td>
+      <td>2</td>
+      <td>ERICSSON</td>
+      <td>FTLF1436W5BTD-E7</td>
+      <td>A</td>
+      <td>CD4S4CA3Y1</td>
+      <td>20200929</td>
+      <td>RDH10275/2 R1A</td>
+      <td>1310.00</td>
+      <td>67C</td>
+      <td>68%</td>
+      <td>-1.26</td>
+      <td>-1.52</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>NIE04225A2</td>
+      <td>AIE04225A21,AIE04225A22</td>
+      <td>3</td>
+      <td>BB-01-C-25-02-Data2</td>
+      <td>AIR6449B41*</td>
+      <td>fru_2049</td>
+      <td>1</td>
+      <td>ERICSSON</td>
+      <td>FTLF1436W5BTD-E7</td>
+      <td>A</td>
+      <td>CD4S4EA17P</td>
+      <td>20201021</td>
+      <td>RDH10275/2 R1A</td>
+      <td>1310.00</td>
+      <td>65C</td>
+      <td>66%</td>
+      <td>-1.78</td>
+      <td>-1.91</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>NIE04225A2</td>
+      <td>AIE04225A21,AIE04225A22</td>
+      <td>4</td>
+      <td>BB-01-D-25-02-Data3</td>
+      <td>AIR6449B41*</td>
+      <td>fru_2049</td>
+      <td>2</td>
+      <td>ERICSSON</td>
+      <td>FTLF1436W5BTD-E7</td>
+      <td>A</td>
+      <td>CD4S47A2KX</td>
+      <td>20201007</td>
+      <td>RDH10275/2 R1A</td>
+      <td>1310.00</td>
+      <td>63C</td>
+      <td>64%</td>
+      <td>-2.85</td>
+      <td>-1.10</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>NIE04225A2</td>
+      <td>AIE04225A31,AIE04225A32</td>
+      <td>5</td>
+      <td>BB-01-E-25-03-Data2</td>
+      <td>AIR6449B41*</td>
+      <td>fru_2050</td>
+      <td>1</td>
+      <td>ERICSSON</td>
+      <td>FTLF1436W5BTD-E7</td>
+      <td>A</td>
+      <td>CD4S4DA17M</td>
+      <td>20201007</td>
+      <td>RDH10275/2 R1A</td>
+      <td>1310.00</td>
+      <td>70C</td>
+      <td>74%</td>
+      <td>-0.10</td>
+      <td>-1.30</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>NIE04225A2</td>
+      <td>AIE04225A31,AIE04225A32</td>
+      <td>6</td>
+      <td>BB-01-F-25-03-Data3</td>
+      <td>AIR6449B41*</td>
+      <td>fru_2050</td>
+      <td>2</td>
+      <td>ERICSSON</td>
+      <td>FTLF1436W5BTD-E7</td>
+      <td>A</td>
+      <td>CD4S4FA08L</td>
+      <td>20201020</td>
+      <td>RDH10275/2 R1A</td>
+      <td>1310.00</td>
+      <td>68C</td>
+      <td>67%</td>
+      <td>-1.89</td>
+      <td>-2.17</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>LVA61251A11,ZVA61251A11</td>
+      <td>1</td>
+      <td>1</td>
+      <td>BB6630</td>
+      <td>000100</td>
+      <td>1</td>
+      <td>WTD</td>
+      <td>RTXM192-404-C24</td>
+      <td>3.0</td>
+      <td>EC132600300451</td>
+      <td>20130701</td>
+      <td>RDH10247/2 R1A</td>
+      <td>1310.00</td>
+      <td>44C</td>
+      <td>20%</td>
+      <td>-4.92</td>
+      <td>-5.50</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>LVA61251A21,ZVA61251A21</td>
+      <td>2</td>
+      <td>3</td>
+      <td>BB6630</td>
+      <td>000100</td>
+      <td>3</td>
+      <td>DELTA</td>
+      <td>LCP-2488B4HDRME1</td>
+      <td>A</td>
+      <td>1625061A0115037</td>
+      <td>20160620</td>
+      <td>RDH10247/2 R2A</td>
+      <td>1310.00</td>
+      <td>48C</td>
+      <td>23%</td>
+      <td>-6.44</td>
+      <td>-8.86</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>LVA61251A31,ZVA61251A31</td>
+      <td>3</td>
+      <td>4</td>
+      <td>BB6630</td>
+      <td>000100</td>
+      <td>4</td>
+      <td>WTD</td>
+      <td>RTXM192-406-C24</td>
+      <td>3.0</td>
+      <td>EC152500241933</td>
+      <td>20150618</td>
+      <td>RDH10247/2 R2A</td>
+      <td>1310.00</td>
+      <td>47C</td>
+      <td>21%</td>
+      <td>-5.35</td>
+      <td>-5.64</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>LVA61251A11,ZVA61251A11</td>
+      <td>4</td>
+      <td>6</td>
+      <td>BB6630</td>
+      <td>000100</td>
+      <td>6</td>
+      <td>WTD</td>
+      <td>RTXM192-404-C24</td>
+      <td>3.0</td>
+      <td>EC132600300456</td>
+      <td>20130701</td>
+      <td>RDH10247/2 R1A</td>
+      <td>1310.00</td>
+      <td>45C</td>
+      <td>20%</td>
+      <td>-5.17</td>
+      <td>-5.13</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>LVA61251A21,ZVA61251A21</td>
+      <td>5</td>
+      <td>8</td>
+      <td>BB6630</td>
+      <td>000100</td>
+      <td>8</td>
+      <td>DELTA</td>
+      <td>LCP-2488B4HDRME1</td>
+      <td>A</td>
+      <td>1625061A0112562</td>
+      <td>20160618</td>
+      <td>RDH10247/2 R2A</td>
+      <td>1310.00</td>
+      <td>49C</td>
+      <td>21%</td>
+      <td>-6.48</td>
+      <td>-6.07</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>LVA61251A31,ZVA61251A31</td>
+      <td>6</td>
+      <td>9</td>
+      <td>BB6630</td>
+      <td>000100</td>
+      <td>9</td>
+      <td>WTD</td>
+      <td>RTXM192-406-C24</td>
+      <td>3.0</td>
+      <td>EC152400170667</td>
+      <td>20150610</td>
+      <td>RDH10247/2 R2A</td>
+      <td>1310.00</td>
+      <td>48C</td>
+      <td>20%</td>
+      <td>-5.59</td>
+      <td>-6.20</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>LVA61251A11,ZVA61251A11</td>
+      <td>7</td>
+      <td>11</td>
+      <td>BB6630</td>
+      <td>000100</td>
+      <td>11</td>
+      <td>WTD</td>
+      <td>RTXM192-404-C24</td>
+      <td>3.0</td>
+      <td>EC132600300457</td>
+      <td>20130701</td>
+      <td>RDH10247/2 R1A</td>
+      <td>1310.00</td>
+      <td>44C</td>
+      <td>20%</td>
+      <td>-4.87</td>
+      <td>-4.19</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>LVA61251A21,ZVA61251A21</td>
+      <td>8</td>
+      <td>13</td>
+      <td>BB6630</td>
+      <td>000100</td>
+      <td>13</td>
+      <td>DELTA</td>
+      <td>LCP-2488B4HDRME1</td>
+      <td>A</td>
+      <td>1624061A0129190</td>
+      <td>20160618</td>
+      <td>RDH10247/2 R2A</td>
+      <td>1310.00</td>
+      <td>47C</td>
+      <td>19%</td>
+      <td>-6.46</td>
+      <td>-6.56</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>LVA61251A31,ZVA61251A31</td>
+      <td>9</td>
+      <td>14</td>
+      <td>BB6630</td>
+      <td>000100</td>
+      <td>14</td>
+      <td>WTD</td>
+      <td>RTXM192-406-C24</td>
+      <td>3.0</td>
+      <td>EC152400170669</td>
+      <td>20150610</td>
+      <td>RDH10247/2 R2A</td>
+      <td>1310.00</td>
+      <td>47C</td>
+      <td>21%</td>
+      <td>-5.51</td>
+      <td>-6.93</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>LVA61251A11,ZVA61251A11</td>
+      <td>1</td>
+      <td>1</td>
+      <td>RRUS0ZB4</td>
+      <td>BXP_2048</td>
+      <td>0</td>
+      <td>WTD</td>
+      <td>RTXM192-404-C24</td>
+      <td>3.0</td>
+      <td>EC132600300455</td>
+      <td>20130701</td>
+      <td>RDH10247/2 R1A</td>
+      <td>1310.00</td>
+      <td>10C</td>
+      <td>15%</td>
+      <td>-4.98</td>
+      <td>-5.04</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>LVA61251A21,ZVA61251A21</td>
+      <td>2</td>
+      <td>3</td>
+      <td>RRUS11B12</td>
+      <td>BXP_2049</td>
+      <td>0</td>
+      <td>DELTA</td>
+      <td>LCP-2488B4HDRME1</td>
+      <td>A</td>
+      <td>1625061A0112975</td>
+      <td>20160618</td>
+      <td>RDH10247/2 R2A</td>
+      <td>1310.00</td>
+      <td>20C</td>
+      <td>19%</td>
+      <td>-6.56</td>
+      <td>-7.03</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>LVA61251A31,ZVA61251A31</td>
+      <td>3</td>
+      <td>4</td>
+      <td>RRUS0ZB4</td>
+      <td>BXP_2050</td>
+      <td>1</td>
+      <td>DELTA</td>
+      <td>LCP-2488B4HDRT-E</td>
+      <td>A</td>
+      <td>142406108016</td>
+      <td>20140610</td>
+      <td>RDH10247/2 R1A</td>
+      <td>1310.00</td>
+      <td>35C</td>
+      <td>27%</td>
+      <td>-6.02</td>
+      <td>-5.44</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>LVA61251A11,ZVA61251A11</td>
+      <td>4</td>
+      <td>6</td>
+      <td>RRUS0ZB4</td>
+      <td>BXP_2051</td>
+      <td>0</td>
+      <td>WTD</td>
+      <td>RTXM192-404-C24</td>
+      <td>3.0</td>
+      <td>EB132600250067</td>
+      <td>20130703</td>
+      <td>RDH10247/2 R1A</td>
+      <td>1310.00</td>
+      <td>19C</td>
+      <td>16%</td>
+      <td>-4.95</td>
+      <td>-6.11</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>LVA61251A21,ZVA61251A21</td>
+      <td>5</td>
+      <td>8</td>
+      <td>RRUS11B12</td>
+      <td>BXP_2052</td>
+      <td>0</td>
+      <td>DELTA</td>
+      <td>LCP-2488B4HDRME1</td>
+      <td>A</td>
+      <td>1625061A0112965</td>
+      <td>20160618</td>
+      <td>RDH10247/2 R2A</td>
+      <td>1310.00</td>
+      <td>24C</td>
+      <td>17%</td>
+      <td>-6.25</td>
+      <td>-6.38</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>LVA61251A31,ZVA61251A31</td>
+      <td>6</td>
+      <td>9</td>
+      <td>RRUS0ZB4</td>
+      <td>BXP_2053</td>
+      <td>1</td>
+      <td>DELTA</td>
+      <td>LCP-2488B4HDRT-E</td>
+      <td>A</td>
+      <td>142406108279</td>
+      <td>20140610</td>
+      <td>RDH10247/2 R1A</td>
+      <td>1310.00</td>
+      <td>29C</td>
+      <td>28%</td>
+      <td>-5.90</td>
+      <td>-7.35</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>LVA61251A11,ZVA61251A11</td>
+      <td>7</td>
+      <td>11</td>
+      <td>RRUS0ZB4</td>
+      <td>BXP_2054</td>
+      <td>0</td>
+      <td>WTD</td>
+      <td>RTXM192-404-C24</td>
+      <td>3.0</td>
+      <td>EB132600250072</td>
+      <td>20130703</td>
+      <td>RDH10247/2 R1A</td>
+      <td>1310.00</td>
+      <td>15C</td>
+      <td>16%</td>
+      <td>-5.00</td>
+      <td>-4.78</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>LVA61251A21,ZVA61251A21</td>
+      <td>8</td>
+      <td>13</td>
+      <td>RRUS11B12</td>
+      <td>BXP_2055</td>
+      <td>0</td>
+      <td>DELTA</td>
+      <td>LCP-2488B4HDRME1</td>
+      <td>A</td>
+      <td>1625061A0112970</td>
+      <td>20160618</td>
+      <td>RDH10247/2 R2A</td>
+      <td>1310.00</td>
+      <td>27C</td>
+      <td>22%</td>
+      <td>-6.40</td>
+      <td>-6.38</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>LVA61251A31,ZVA61251A31</td>
+      <td>9</td>
+      <td>14</td>
+      <td>RRUS0ZB4</td>
+      <td>BXP_2056</td>
+      <td>1</td>
+      <td>DELTA</td>
+      <td>LCP-2488B4HDRT-E</td>
+      <td>A</td>
+      <td>143006114240</td>
+      <td>20140726</td>
+      <td>RDH10247/2 R1A</td>
+      <td>1310.00</td>
+      <td>30C</td>
+      <td>27%</td>
+      <td>-5.87</td>
+      <td>-6.04</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table> </pre><pre> <h2>-----:LTE CELL STATUS-----:-----:<h2>
+ 
+<table border="1" class="dataframe table table-striped table-bordered" id="styled_table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Site Id</th>
+      <th>MO</th>
+      <th>administrativeState</th>
+      <th>cellBarred</th>
+      <th>operationalState</th>
+      <th>primaryPlmnReserved</th>
+      <th>sectorCarrierRef</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MIE04225A</td>
+      <td>DIE04225A11</td>
+      <td>UNLOCKED</td>
+      <td><span class="shobhit" style=""> NOT_BARRED</span></td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+      <td><span class="shobhit" style="">false</span></td>
+      <td>SectorCarrier=7-01-01</td>
+    </tr>
+    <tr>
+      <td>MIE04225A</td>
+      <td>DIE04225A21</td>
+      <td>UNLOCKED</td>
+      <td><span class="shobhit" style=""> NOT_BARRED</span></td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+      <td><span class="shobhit" style="">false</span></td>
+      <td>SectorCarrier=7-02-01</td>
+    </tr>
+    <tr>
+      <td>MIE04225A</td>
+      <td>DIE04225A31</td>
+      <td>UNLOCKED</td>
+      <td><span class="shobhit" style=""> NOT_BARRED</span></td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+      <td><span class="shobhit" style="">false</span></td>
+      <td>SectorCarrier=7-03-01</td>
+    </tr>
+    <tr>
+      <td>MIE04225A</td>
+      <td>EIE04225A11</td>
+      <td>UNLOCKED</td>
+      <td><span class="shobhit" style=""> NOT_BARRED</span></td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+      <td><span class="shobhit" style="">false</span></td>
+      <td>SectorCarrier=6-01-01</td>
+    </tr>
+    <tr>
+      <td>MIE04225A</td>
+      <td>EIE04225A21</td>
+      <td>UNLOCKED</td>
+      <td><span class="shobhit" style=""> NOT_BARRED</span></td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+      <td><span class="shobhit" style="">false</span></td>
+      <td>SectorCarrier=6-02-01</td>
+    </tr>
+    <tr>
+      <td>MIE04225A</td>
+      <td>EIE04225A31</td>
+      <td>UNLOCKED</td>
+      <td><span class="shobhit" style=""> NOT_BARRED</span></td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+      <td><span class="shobhit" style="">false</span></td>
+      <td>SectorCarrier=6-03-01</td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>DVA61251A11</td>
+      <td>LOCKED</td>
+      <td><span class="shobhit" style=""> NOT_BARRED</span></td>
+      <td><span class="shobhit" style="background-color: orange; color:white"> DISABLED</span></td>
+      <td><span class="shobhit" style="background-color: rgb(250, 9, 9); color:white;">true</span></td>
+      <td>SectorCarrier=4</td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>DVA61251A21</td>
+      <td>UNLOCKED</td>
+      <td><span class="shobhit" style=""> NOT_BARRED</span></td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+      <td><span class="shobhit" style="">false</span></td>
+      <td>SectorCarrier=5</td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>DVA61251A31</td>
+      <td>UNLOCKED</td>
+      <td><span class="shobhit" style=""> NOT_BARRED</span></td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+      <td><span class="shobhit" style="">false</span></td>
+      <td>SectorCarrier=6</td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>LVA61251A11</td>
+      <td>UNLOCKED</td>
+      <td><span class="shobhit" style="background-color: rgb(250, 9, 9); color:white;"> BARRED</span></td>
+      <td><span class="shobhit" style="background-color: rgb(250, 9, 9); color:white"> DISABLED</span></td>
+      <td><span class="shobhit" style="">false</span></td>
+      <td>SectorCarrier=1</td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>LVA61251A21</td>
+      <td>UNLOCKED</td>
+      <td><span class="shobhit" style=""> NOT_BARRED</span></td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+      <td><span class="shobhit" style="">false</span></td>
+      <td>SectorCarrier=2</td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>LVA61251A31</td>
+      <td>UNLOCKED</td>
+      <td><span class="shobhit" style=""> NOT_BARRED</span></td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+      <td><span class="shobhit" style="">false</span></td>
+      <td>SectorCarrier=3</td>
+    </tr>
+  </tbody>
+</table> </pre><pre> <h2>-----:IOT CELL STATUS-----:-----:</h2>
+ 
+
+<style>
+th {
+    background-color: blue;
+    color: white;
+    text-align: left;
+}
+
+.table {
+    border-collapse: collapse;
+}
+.table td {
+    padding: 5px;
+    position:relative;
+}
+.shobhit{
+position:absolute;top:0;left:0;bottom:0;right:0; display:flex;justify-content:center;align-items:center; widht:100%; height:100% ;
+}
+
+
+
+
+</style>
+<table border="1" class="dataframe table table-striped table-bordered" id="styled_table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Site Id</th>
+      <th>MO</th>
+      <th>administrativeState</th>
+      <th>cellBarred</th>
+      <th>operationalState</th>
+      <th>sectorCarrierRef</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>LVA61251A</td>
+      <td>ZVA61251A11</td>
+      <td>LOCKED</td>
+      <td><span class="shobhit" style=""> NOT_BARRED</span></td>
+      <td><span class="shobhit" style="background-color: orange;color:white;"> DISABLED</span></td>
+      <td>SectorCarrier=1</td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>ZVA61251A21</td>
+      <td>UNLOCKED</td>
+      <td><span class="shobhit" style="background-color: rgb(250, 9, 9);color:white; "> BARRED</span></td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+      <td>SectorCarrier=2</td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>ZVA61251A31</td>
+      <td>UNLOCKED</td>
+      <td><span class="shobhit" style=""> NOT_BARRED</span></td>
+      <td><span class="shobhit" style="background-color: rgb(250, 9, 9);color:white;"> DISABLED</span></td>
+      <td>SectorCarrier=3</td>
+    </tr>
+  </tbody>
+</table> </pre><pre> <h2>-----:UMTS Cell Status-----:-----:</h2>
+ 
+<style>/* Your global CSS styles here */</style><table border="1" class="dataframe table table-striped table-bordered" id="styled_table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>RNC</th>
+      <th>SITE_id</th>
+      <th>CELL</th>
+      <th>Proxy</th>
+      <th>Adm State</th>
+      <th>Op. State</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>VARNC004</td>
+      <td>UVA61251A2</td>
+      <td>PVA61251A11</td>
+      <td>20600</td>
+      <td>LOCKED</td>
+      <td><span class="shobhit" style="background-color: orange;color:white;"> DISABLED</span></td>
+    </tr>
+    <tr>
+      <td>VARNC004</td>
+      <td>UVA61251A2</td>
+      <td>PVA61251A21</td>
+      <td>20632</td>
+      <td>UNLOCKED</td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+    </tr>
+    <tr>
+      <td>VARNC004</td>
+      <td>UVA61251A2</td>
+      <td>PVA61251A31</td>
+      <td>20669</td>
+      <td>UNLOCKED</td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+    </tr>
+  </tbody>
+</table> </pre><pre> 
+<h2>-----:GSM CELL STATUS-----:</h2>
+ 
+
+<style>
+th {
+    background-color: blue;
+    color: white;
+    text-align: left;
+}
+
+.table {
+    border-collapse: collapse;
+}
+.table td {
+    padding: 5px;
+    position:relative;
+}
+.shobhit{
+position:absolute;top:0;left:0;bottom:0;right:0; display:flex;justify-content:center;align-items:center; widht:100%; height:100% ;
+}
+
+
+
+
+</style>
+<table border="1" class="dataframe table table-striped table-bordered" id="styled_table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>BSC</th>
+      <th>CELL</th>
+      <th>STATE</th>
+      <th>BSPWRB</th>
+      <th>BSPWRT</th>
+      <th>MSTXPWR</th>
+      <th>CB</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>UPBS902</td>
+      <td>CLA411A</td>
+      <td><span style="">ACTIVE</span></td>
+      <td>37</td>
+      <td>37</td>
+      <td>30</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <td>UPBS902</td>
+      <td>CLA411B</td>
+      <td><span style="">ACTIVE</span></td>
+      <td>37</td>
+      <td>37</td>
+      <td>30</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <td>UPBS902</td>
+      <td>CLA411C</td>
+      <td><span style="background-color: rgb(250, 9, 9);color:white;">HALTED</span></td>
+      <td>37</td>
+      <td>37</td>
+      <td>30</td>
+      <td>NO</td>
+    </tr>
+  </tbody>
+</table> </pre><pre> 
+<h2>-----: RILINK STATUS:-----:</h2>
+ 
+
+<style>
+th {
+    background-color: blue;
+    color: white;
+    text-align: left;
+}
+
+.table {
+    border-collapse: collapse;
+}
+.table td {
+    padding: 5px;
+    position:relative;
+}
+.shobhit{
+position:absolute;top:0;left:0;bottom:0;right:0; display:flex;justify-content:center;align-items:center; widht:100%; height:100% ;
+}
+
+
+
+
+</style>
+<table border="1" class="dataframe table table-striped table-bordered" id="styled_table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Site Id</th>
+      <th>MO</th>
+      <th>administrativeState</th>
+      <th>cellBarred</th>
+      <th>operationalState</th>
+      <th>primaryPlmnReserved</th>
+      <th>sectorCarrierRef</th>
+      <th>A</th>
+      <th>B</th>
+      <th>C</th>
+      <th>D</th>
+      <th>DELTA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MIE04225A</td>
+      <td>DIE04225A11</td>
+      <td>UNLOCKED</td>
+      <td><span class="shobhit" style=""> NOT_BARRED</span></td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+      <td><span class="shobhit" style="">false</span></td>
+      <td>SectorCarrier=7</td>
+      <td>-114.5</td>
+      <td>-116.3</td>
+      <td>-115.4</td>
+      <td>-116.9</td>
+      <td>2.4</td>
+    </tr>
+    <tr>
+      <td>MIE04225A</td>
+      <td>DIE04225A21</td>
+      <td>UNLOCKED</td>
+      <td><span class="shobhit" style=""> NOT_BARRED</span></td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+      <td><span class="shobhit" style="">false</span></td>
+      <td>SectorCarrier=7</td>
+      <td>-116.4</td>
+      <td>-117.5</td>
+      <td>-117.0</td>
+      <td>-117.3</td>
+      <td>1.1</td>
+    </tr>
+    <tr>
+      <td>MIE04225A</td>
+      <td>DIE04225A31</td>
+      <td>UNLOCKED</td>
+      <td><span class="shobhit" style=""> NOT_BARRED</span></td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+      <td><span class="shobhit" style="">false</span></td>
+      <td>SectorCarrier=7</td>
+      <td>-114.9</td>
+      <td>-116.4</td>
+      <td>-115.6</td>
+      <td>-116.5</td>
+      <td>1.6</td>
+    </tr>
+    <tr>
+      <td>MIE04225A</td>
+      <td>EIE04225A11</td>
+      <td>UNLOCKED</td>
+      <td><span class="shobhit" style=""> NOT_BARRED</span></td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+      <td><span class="shobhit" style="">false</span></td>
+      <td>SectorCarrier=6</td>
+      <td>-114.1</td>
+      <td>-115.8</td>
+      <td>-115.0</td>
+      <td>-116.1</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>MIE04225A</td>
+      <td>EIE04225A21</td>
+      <td>UNLOCKED</td>
+      <td><span class="shobhit" style=""> NOT_BARRED</span></td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+      <td><span class="shobhit" style="">false</span></td>
+      <td>SectorCarrier=6</td>
+      <td>-116.6</td>
+      <td>-117.1</td>
+      <td>-117.2</td>
+      <td>-116.5</td>
+      <td>0.7</td>
+    </tr>
+    <tr>
+      <td>MIE04225A</td>
+      <td>EIE04225A31</td>
+      <td>UNLOCKED</td>
+      <td><span class="shobhit" style=""> NOT_BARRED</span></td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+      <td><span class="shobhit" style="">false</span></td>
+      <td>SectorCarrier=6</td>
+      <td>-116.8</td>
+      <td>-117.5</td>
+      <td>-116.9</td>
+      <td>-117.0</td>
+      <td>0.7</td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>DVA61251A11</td>
+      <td>LOCKED</td>
+      <td><span class="shobhit" style=""> NOT_BARRED</span></td>
+      <td><span class="shobhit" style="background-color: orange;color:white;"> DISABLED</span></td>
+      <td><span class="shobhit" style="background-color: rgb(250, 9, 9);color:white; ">true</span></td>
+      <td>SectorCarrier=4</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>DVA61251A21</td>
+      <td>UNLOCKED</td>
+      <td><span class="shobhit" style=""> NOT_BARRED</span></td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+      <td><span class="shobhit" style="">false</span></td>
+      <td>SectorCarrier=5</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>DVA61251A31</td>
+      <td>UNLOCKED</td>
+      <td><span class="shobhit" style=""> NOT_BARRED</span></td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+      <td><span class="shobhit" style="">false</span></td>
+      <td>SectorCarrier=6</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>LVA61251A11</td>
+      <td>UNLOCKED</td>
+      <td><span class="shobhit" style="background-color: rgb(250, 9, 9);color:white; "> BARRED</span></td>
+      <td><span class="shobhit" style="background-color: red;color:white;"> DISABLED</span></td>
+      <td><span class="shobhit" style="">false</span></td>
+      <td>SectorCarrier=1</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>LVA61251A21</td>
+      <td>UNLOCKED</td>
+      <td><span class="shobhit" style=""> NOT_BARRED</span></td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+      <td><span class="shobhit" style="">false</span></td>
+      <td>SectorCarrier=2</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>LVA61251A</td>
+      <td>LVA61251A31</td>
+      <td>UNLOCKED</td>
+      <td><span class="shobhit" style=""> NOT_BARRED</span></td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+      <td><span class="shobhit" style="">false</span></td>
+      <td>SectorCarrier=3</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table> </pre><pre> 
+<h2>-----:UMTS RET STATUS:-----:</h2>
+ 
+<table border="1" class="dataframe table table-striped table-bordered" id="styled_table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>SITE_ID</th>
+      <th>RET MO</th>
+      <th>electricalAntennaTilt</th>
+      <th>Op. State</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>UVA61251A2</td>
+      <td>ExternalAntenna=3-2,AuxPlugInUnit=2,RetuDeviceGroup=1,RetDeviceSet=1,RetDevice=1</td>
+      <td>40</td>
+      <td><span class="shobhit" style="background-color: rgb(250, 9, 9); color:white;"> DISABLED</span></td>
+    </tr>
+    <tr>
+      <td>UVA61251A2</td>
+      <td>SectorAntenna=3-1,AuxPlugInUnit=AIR-1,DeviceGroup=AIR,RetDeviceSet=1,RetDevice=1</td>
+      <td>40</td>
+      <td><span class="shobhit" style="background-color: rgb(250, 9, 9); color:white;"> DISABLED</span></td>
+    </tr>
+    <tr>
+      <td>UVA61251A2</td>
+      <td>ExternalAntenna=1-2,AuxPlugInUnit=2,RetuDeviceGroup=1,RetDeviceSet=1,RetDevice=1</td>
+      <td>40</td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+    </tr>
+    <tr>
+      <td>UVA61251A2</td>
+      <td>SectorAntenna=1-1,AuxPlugInUnit=AIR-1,DeviceGroup=AIR,RetDeviceSet=1,RetDevice=1</td>
+      <td>40</td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+    </tr>
+    <tr>
+      <td>UVA61251A2</td>
+      <td>ExternalAntenna=2-2,AuxPlugInUnit=2,RetuDeviceGroup=1,RetDeviceSet=1,RetDevice=1</td>
+      <td>40</td>
+      <td><span class="shobhit" style=""> ENABLED</span></td>
+    </tr>
+    <tr>
+      <td>UVA61251A2</td>
+      <td>SectorAntenna=2-1,AuxPlugInUnit=AIR-1,DeviceGroup=AIR,RetDeviceSet=1,RetDevice=1</td>
+      <td>40</td>
+      <td><span class="shobhit" style="background-color: rgb(250, 9, 9); color:white;"> DISABLED</span></td>
+    </tr>
+  </tbody>
+</table> </pre><pre> <h2>-----:MIE04225A SDIR:-----:</h2>
+..........
++--------+                  +----------------+
+|        | A      O101   D2 |      6-01      |
+|        |---------1--------| RRU4449B71B85A |
+|        |       [1;32mOK[0m-53m     |     BXP_2      |
+|        |                  +----------------+
+|        |                     |A  |B  |C  |D
+|        |                    SE=6-01 AG=6-01
+|        |    FDD=DIE04225A11 FDD=EIE04225A11
+|        |                    NRC=KIE04225A11
+|        |
+|        |                  +----------------+
+|        | B      O101   D2 |      6-02      |
+|        |---------2--------| RRU4449B71B85A |
+| BB-01  |       [1;32mOK[0m-53m     |     BXP_3      |
+| BB6630 |                  +----------------+
+| 000100 |                     |A  |B  |C  |D
+|        |                    SE=6-02 AG=6-02
+|        |    FDD=DIE04225A21 FDD=EIE04225A21
+|        |                    NRC=KIE04225A21
+|        |
+|        |                  +----------------+
+|        | C      O101   D2 |      6-03      |
+|        |---------3--------| RRU4449B71B85A |
+|        |       [1;32mOK[0m-52m     |     BXP_4      |
+|        |                  +----------------+
+|        |                     |A  |B  |C  |D
+|        |                    SE=6-03 AG=6-03
+|        |    FDD=DIE04225A31 FDD=EIE04225A31
++--------+                    NRC=KIE04225A31
+
+=====================================================================================================================================
+ID RiL                Type Res MO1-MO2           BOARD1-BOARD2         AlmIDs Cells (States)                                          Issue (Failed checks)
+=====================================================================================================================================
+1 BB-01-A-6-01-Data2 O101 OK  BB-01(A) 6-01(D2) BB6630 RRU4449B71B85A        FDD=DIE04225A11 FDD=EIE04225A11 NRC=KIE04225A11 (1,1,1) Passed
+2 BB-01-B-6-02-Data2 O101 OK  BB-01(B) 6-02(D2) BB6630 RRU4449B71B85A        FDD=DIE04225A21 FDD=EIE04225A21 NRC=KIE04225A21 (1,1,1) Passed
+3 BB-01-C-6-03-Data2 O101 OK  BB-01(C) 6-03(D2) BB6630 RRU4449B71B85A        FDD=DIE04225A31 FDD=EIE04225A31 NRC=KIE04225A31 (1,1,1) Passed
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Node: RadioNode LN   CXP9024418/15_R74C54 (23.Q2)   LTE-FDD NR-LB-FDD-SA-NSA
+
+=====================================================================================================================================
+FRU   ;LNH    ;BOARD          ;ST ;FAULT ;OPER ;MAINT ;STAT ;PRODUCTNUMBER   ;REV     ;SERIAL        ;DATE     ;PMTEMP ; TEMP ; UPT ;SW                  ;
+=====================================================================================================================================
+BB-01 ;000100 ;BB6630         ; 1 ;  OFF ;  ON ;  OFF ;  ON ;KDU137848/11    ;R3B     ;B070261927    ;20200502 ;3 (OK) ;      ;16.5 ;                    ;
+6-01  ;BXP_2  ;RRU4449B71B85A ; 1 ;  OFF ;  ON ;  OFF ; N/A ;KRC161756/1     ;R1F     ;CF88567144    ;20210128 ;4 (OK) ; 56.0 ;16.5 ;CXP9013268%15_R94JK ; (Radio4449B71B85A)
+6-02  ;BXP_3  ;RRU4449B71B85A ; 1 ;  OFF ;  ON ;  OFF ; N/A ;KRC161756/1     ;R1F     ;CF87909749    ;20200620 ;4 (OK) ; 51.0 ;16.5 ;CXP9013268%15_R94JK ; (Radio4449B71B85A)
+6-03  ;BXP_4  ;RRU4449B71B85A ; 1 ;  OFF ;  ON ;  OFF ; N/A ;KRC161756/1     ;R1F     ;CF87910986    ;20200620 ;4 (OK) ; 51.0 ;16.5 ;CXP9013268%15_R94JK ; (Radio4449B71B85A)
+-------------------------------------------------------------------------------------------------------------------------------------
+
+=====================================================================================================================================
+AntennaNearUnit                          ;ST  ;TYPE   ;PRODUCTNR  ;REV   ;UNIQUEID             ;RfPort
+=====================================================================================================================================
+AntennaUnitGroup=6-01,AntennaNearUnit=1  ; 1  ;S-RET  ;ACU-A20-S  ;HW05  ;RF06201711007542-R1  ;FieldReplaceableUnit=6-01,RfPort=R
+AntennaUnitGroup=6-02,AntennaNearUnit=1  ; 1  ;S-RET  ;ACU-A20-S  ;HW05  ;RF06201711007952-R1  ;FieldReplaceableUnit=6-02,RfPort=R
+AntennaUnitGroup=6-03,AntennaNearUnit=1  ; 1  ;S-RET  ;ACU-A20-S  ;HW05  ;RF06201711001872-R1  ;FieldReplaceableUnit=6-03,RfPort=R
+-------------------------------------------------------------------------------------------------------------------------------------
+
+=====================================================================================================================================
+XPBOARD   ;ST ;FAULT ;OPER ;PRODUCTNUMBER ;REV ;SERIAL/NAME ;DATE     ; TEMP ;MO
+=====================================================================================================================================
+;   ;      ;     ;              ;    ;            ;         ;  999 ;Cabinet=1
+FANGROUP  ;   ;?     ;     ;              ;    ;            ;         ;      ;Cabinet=1,FanGroup=1
+FANGROUP  ;   ;?     ;     ;              ;    ;            ;         ;      ;Cabinet=1,FanGroup=2
+FANGROUP  ;   ;?     ;     ;              ;    ;            ;         ;      ;Cabinet=1,FanGroup=3
+FAN       ; 1 ;N/A   ;N/A  ;BKV106217/1   ;N/A ;N/A         ;N/A      ;      ;SupportUnit=1 (FAN  BB-01)
+GPS0201   ; 1 ;      ;     ;NCD90141/1    ;R1D ;110624      ;         ;      ;Synchronization=1,TimeSyncIO=1 (7:OperationalWithValidTime)
+-------------------------------------------------------------------------------------------------------------------------------------
+
+=====================================================================================================================================
+ID ;T ;RiL                ;BPBP ;BOARD1         ;LNH1 ;PORT ;R ;LINK ;RATE  ; BER ;BOARD2         ;LNH2 ;PORT ;R ;LINK ;RATE  ; BER ;LENGTH ;MO1 - MO2
+=====================================================================================================================================
+1 ;O ;BB-01-A-6-01-Data2 ;1111 ;BB6630         ;000100 ; 1 ;M ;Up   ;10.1G ;   0 ;RRU4449B71B85A ;BXP_2  ; 1 ;S ;Up   ;10.1G ;   0 ;   53m ;Fru=BB-01(A) Fru=6-01(D2)
+2 ;O ;BB-01-B-6-02-Data2 ;1111 ;BB6630         ;000100 ; 2 ;M ;Up   ;10.1G ;   0 ;RRU4449B71B85A ;BXP_3  ; 1 ;S ;Up   ;10.1G ;   0 ;   53m ;Fru=BB-01(B) Fru=6-02(D2)
+3 ;O ;BB-01-C-6-03-Data2 ;1111 ;BB6630         ;000100 ; 3 ;M ;Up   ;10.1G ;   0 ;RRU4449B71B85A ;BXP_4  ; 1 ;S ;Up   ;10.1G ;   0 ;   52m ;Fru=BB-01(C) Fru=6-03(D2)
+-------------------------------------------------------------------------------------------------------------------------------------
+
+=====================================================================================================================================
+ID ;LINK ;RiL                ;VENDOR1      ;VENDORPROD1      ;REV1 ;SERIAL1         ;DATE1    ;ERICSSONPROD1  ;VENDOR2      ;VENDORPROD2      ;REV2 ;SERIAL2         ;DATE2    ;ERICSSONPROD2  ;TT ;WL1     ;WL2
+=====================================================================================================================================
+1 ;Up   ;BB-01-A-6-01-Data2 ;FINISARCORP. ;FTLX1370W4BTL-E7 ;A    ;PZG11NY         ;20180419 ;RDH10265/2 R1A ;DELTA        ;LCP-10G3B4HDRME2 ;A    ;1744091A0416174 ;20171104 ;RDH10265/2 R1A ;0  ;1310.00 ;1310.00
+2 ;Up   ;BB-01-B-6-02-Data2 ;FINISARCORP. ;FTLX1370W4BTL-E7 ;A    ;PZE1H9Z         ;20180408 ;RDH10265/2 R1A ;DELTA        ;LCP-10G3B4HDRME2 ;A    ;1750091A0403540 ;20171211 ;RDH10265/2 R1A ;0  ;1310.00 ;1310.00
+3 ;Up   ;BB-01-C-6-03-Data2 ;FINISARCORP. ;FTLX1370W4BTL-E7 ;A    ;PZE20XM         ;20180409 ;RDH10265/2 R1A ;DELTA        ;LCP-10G3B4HDRME2 ;A    ;1744091A0416140 ;20171104 ;RDH10265/2 R1A ;0  ;1310.00 ;1310.00
+-------------------------------------------------------------------------------------------------------------------------------------
+
+=====================================================================================================================================
+ID ;LINK ;RiL                ;WL1     ;TEMP1 ;TXbs1 ;TXdBm1 ;RXdBm1 ;BER1   ;WL2     ;TEMP2 ;TXbs2 ;TXdBm2 ;RXdBm2 ;BER2   ;DlLoss ;UlLoss ;LENGTH ;TT
+=====================================================================================================================================
+1 ;Up   ;BB-01-A-6-01-Data2 ;1310.00 ;45C   ;14%   ;-3.55  ;-2.45  ;   0   ;1310.00 ;49C   ;33%   ;-1.48  ;-4.17  ;   0   ;  0.62 ;  0.97 ;   53m ; 0
+2 ;Up   ;BB-01-B-6-02-Data2 ;1310.00 ;49C   ;10%   ;-2.76  ;-1.84  ;   0   ;1310.00 ;49C   ;39%   ;-1.10  ;-4.70  ;   0   ;  1.94 ;  0.74 ;   53m ; 0
+3 ;Up   ;BB-01-C-6-03-Data2 ;1310.00 ;49C   ;12%   ;-1.38  ;-2.72  ;   0   ;1310.00 ;47C   ;40%   ;-2.02  ;-0.38  ;   0   ;    -1 ;   0.7 ;   52m ; 0
+-------------------------------------------------------------------------------------------------------------------------------------
+
+=====================================================================================================================================
+ID ;RiL                ;BOARD          ;SFPLNH  ;PORT ;VENDOR       ;VENDORPROD       ;REV  ;SERIAL          ;DATE     ;ERICSSONPROD   ;WL      ;TEMP  ;TXbs  ;TXdBm  ;RXdBm  ; BER
+=====================================================================================================================================
+1 ;BB-01-A-6-01-Data2 ;BB6630         ;000100   ;  1 ;FINISARCORP. ;FTLX1370W4BTL-E7 ;A    ;PZG11NY         ;20180419 ;RDH10265/2 R1A ;1310.00 ;45C   ;14%   ;-3.55  ;-2.45  ;   0
+2 ;BB-01-B-6-02-Data2 ;BB6630         ;000100   ;  2 ;FINISARCORP. ;FTLX1370W4BTL-E7 ;A    ;PZE1H9Z         ;20180408 ;RDH10265/2 R1A ;1310.00 ;49C   ;10%   ;-2.76  ;-1.84  ;   0
+3 ;BB-01-C-6-03-Data2 ;BB6630         ;000100   ;  3 ;FINISARCORP. ;FTLX1370W4BTL-E7 ;A    ;PZE20XM         ;20180409 ;RDH10265/2 R1A ;1310.00 ;49C   ;12%   ;-1.38  ;-2.72  ;   0
+1 ;BB-01-A-6-01-Data2 ;RRU4449B71B85A ;BXP_2    ;  1 ;DELTA        ;LCP-10G3B4HDRME2 ;A    ;1744091A0416174 ;20171104 ;RDH10265/2 R1A ;1310.00 ;49C   ;33%   ;-1.48  ;-4.17  ;   0
+2 ;BB-01-B-6-02-Data2 ;RRU4449B71B85A ;BXP_3    ;  1 ;DELTA        ;LCP-10G3B4HDRME2 ;A    ;1750091A0403540 ;20171211 ;RDH10265/2 R1A ;1310.00 ;49C   ;39%   ;-1.10  ;-4.70  ;   0
+3 ;BB-01-C-6-03-Data2 ;RRU4449B71B85A ;BXP_4    ;  1 ;DELTA        ;LCP-10G3B4HDRME2 ;A    ;1744091A0416140 ;20171104 ;RDH10265/2 R1A ;1310.00 ;47C   ;40%   ;-2.02  ;-0.38  ;   0
+-------------------------------------------------------------------------------------------------------------------------------------
+TN ;                   ;BB6630         ;000100   ;  A ;FINISARCORP. ;FTLX1370W4BTL    ;A    ;N4LBJ59         ;20201122 ;NON-ERICSSON   ;NA      ;NA    ;NA    ;NA     ;NA     ;NZ/0
+-------------------------------------------------------------------------------------------------------------------------------------
+
+=====================================================================================================================================
+BOARD  ;LNH    ;PORT   ;T ;S ;OpMode   ;AutoNeg ;MacAddress        ;VlanIds       ;LOS ;BER
+=====================================================================================================================================
+BB6630 ;000100 ;IDL_A1 ;E ;1 ;10G_FULL ;false   ;98:7A:10:CF:00:AB ;4050,4060     ;0   ;0/0
+BB6630 ;000100 ;TN_A   ;O ;1 ;10G_FULL ;false   ;98:7A:10:CF:00:A7 ;513,2513,4001 ;0   ;NZ/0
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Last MO: 22400. Loaded 22400 MOs. Total: 22401 MOs.
+radioClockState : RNT_TIME_LOCKED
+-------------------------------------------------------------------------------------
+Prio  ;ST  ;syncRefType    ;refStatus  ;opQualLevel   ;SyncReference
+-------------------------------------------------------------------------------------
+1  ; L  ;PTP_TIME       ;PTP_FAULT  ;QL_UNKNOWN    ;Ptp=1,BoundaryOrdinaryClock=PTP_SLAVE (G_8275_1 EthernetPort=ERAN:LISTENING)
+*2  ; 1  ;GNSS_RECEIVER  ;NO_FAULT   ;SSU_A_OR_TNC  ;Synchronization=1,TimeSyncIO=1 (FieldReplaceableUnit=BB-01,SyncPort=1)
+8  ; 1  ;PTP_TIME       ;NO_FAULT   ;PRTC          ;Ptp=1,BoundaryOrdinaryClock=1 (G_8275_1 EthernetPort=TN_A:SLAVE)
+-------------------------------------------------------------------------------------
+
+=====================================================================================================================================
+FRU   ;LNH    ;BOARD          ;RF  ;BP  ;TX (W/dBm)  ;VSWR (RL)   ;RX (dBm) ;UEs/gUEs  ;Sector/AntennaGroup/Cells (State:CellIds:PCIs)
+=====================================================================================================================================
+6-01  ;BXP_2  ;RRU4449B71B85A ; A  ;11  ;-           ;1.23 (19.7) ;         ;9/-       ;SE=6-01 AG=6-01 FDD=DIE04225A11 FDD=EIE04225A11 NRC=KIE04225A11 (1:4:210, 1:61:210, 1:1:243)
+6-01  ;BXP_2  ;RRU4449B71B85A ; B  ;11  ;-           ;1.16 (22.8) ;         ;9/-       ;SE=6-01 AG=6-01 FDD=DIE04225A11 FDD=EIE04225A11 NRC=KIE04225A11 (1:4:210, 1:61:210, 1:1:243)
+6-01  ;BXP_2  ;RRU4449B71B85A ; C  ;11  ;-           ;1.19 (21.4) ;         ;9/-       ;SE=6-01 AG=6-01 FDD=DIE04225A11 FDD=EIE04225A11 NRC=KIE04225A11 (1:4:210, 1:61:210, 1:1:243)
+6-01  ;BXP_2  ;RRU4449B71B85A ; D  ;11  ;-           ;1.21 (20.4) ;         ;9/-       ;SE=6-01 AG=6-01 FDD=DIE04225A11 FDD=EIE04225A11 NRC=KIE04225A11 (1:4:210, 1:61:210, 1:1:243)
+6-02  ;BXP_3  ;RRU4449B71B85A ; A  ;11  ;-           ;1.18 (21.5) ;         ;4/-       ;SE=6-02 AG=6-02 FDD=DIE04225A21 FDD=EIE04225A21 NRC=KIE04225A21 (1:5:421, 1:62:421, 1:2:817)
+6-02  ;BXP_3  ;RRU4449B71B85A ; B  ;11  ;-           ;1.18 (21.6) ;         ;4/-       ;SE=6-02 AG=6-02 FDD=DIE04225A21 FDD=EIE04225A21 NRC=KIE04225A21 (1:5:421, 1:62:421, 1:2:817)
+6-02  ;BXP_3  ;RRU4449B71B85A ; C  ;11  ;-           ;1.18 (21.5) ;         ;4/-       ;SE=6-02 AG=6-02 FDD=DIE04225A21 FDD=EIE04225A21 NRC=KIE04225A21 (1:5:421, 1:62:421, 1:2:817)
+6-02  ;BXP_3  ;RRU4449B71B85A ; D  ;11  ;-           ;1.21 (20.4) ;         ;4/-       ;SE=6-02 AG=6-02 FDD=DIE04225A21 FDD=EIE04225A21 NRC=KIE04225A21 (1:5:421, 1:62:421, 1:2:817)
+6-03  ;BXP_4  ;RRU4449B71B85A ; A  ;11  ;-           ;1.22 (20.1) ;         ;0/-       ;SE=6-03 AG=6-03 FDD=DIE04225A31 FDD=EIE04225A31 NRC=KIE04225A31 (1:6:356, 1:63:356, 1:3:92)
+6-03  ;BXP_4  ;RRU4449B71B85A ; B  ;11  ;-           ;1.19 (21.1) ;         ;0/-       ;SE=6-03 AG=6-03 FDD=DIE04225A31 FDD=EIE04225A31 NRC=KIE04225A31 (1:6:356, 1:63:356, 1:3:92)
+6-03  ;BXP_4  ;RRU4449B71B85A ; C  ;11  ;-           ;1.20 (20.8) ;         ;0/-       ;SE=6-03 AG=6-03 FDD=DIE04225A31 FDD=EIE04225A31 NRC=KIE04225A31 (1:6:356, 1:63:356, 1:3:92)
+6-03  ;BXP_4  ;RRU4449B71B85A ; D  ;11  ;-           ;1.22 (20.1) ;         ;0/-       ;SE=6-03 AG=6-03 FDD=DIE04225A31 FDD=EIE04225A31 NRC=KIE04225A31 (1:6:356, 1:63:356, 1:3:92)
+ </pre><pre> <h2>-----:NIE04225A2 SDIR:-----:</h2>
+...........
++--------+               +-------------+
+|        | A    O257  D2 |             |
+|        |-------1-------|    25-01    |
+|        |    [1;31mNOK[0m-43m    | AIR6449B41* |
+|        |               |  fru_2048   |
+|        | B    O257  D3 |             |
+|        |-------2-------|             |
+|        |       [1;32mOK[0m      +-------------+
+|        |                           |A
+|        |    SE=25-01* NRC=AIE04225A11
+|        |              NRC=AIE04225A12
+|        |
+|        |               +-------------+
+|        | C    O257  D2 |             |
+|        |-------3-------|    25-02    |
+|        |     [1;32mOK[0m-42m    | AIR6449B41* |
+| BB-01  |               |  fru_2049   |
+| BB6648 | D    O257  D3 |             |
+| 000100 |-------4-------|             |
+|        |     [1;32mOK[0m-42m    +-------------+
+|        |                           |A
+|        |    SE=25-02* NRC=AIE04225A21
+|        |              NRC=AIE04225A22
+|        |
+|        |               +-------------+
+|        | E    O257  D2 |             |
+|        |-------5-------|    25-03    |
+|        |       [1;32mOK[0m      | AIR6449B41* |
+|        |               |  fru_2050   |
+|        | F    O257  D3 |             |
+|        |-------6-------|             |
+|        |     [1;32mOK[0m-43m    +-------------+
+|        |                           |A
+|        |    SE=25-03* NRC=AIE04225A31
++--------+              NRC=AIE04225A32
+
+=====================================================================================================================================
+ID RiL                 Type Res MO1-MO2            BOARD1-BOARD2      AlmIDs Cells (States)                        Issue (Failed checks)
+=====================================================================================================================================
+ 1 BB-01-A-25-01-Data2 O257 NOK BB-01(A) 25-01(D2) BB6648 AIR6449B41*        NRC=AIE04225A11 NRC=AIE04225A12 (1,B) Fiber Loss DL  (DlLoss=7.29)
+ 2 BB-01-B-25-01-Data3 O257 OK  BB-01(B) 25-01(D3) BB6648 AIR6449B41*        NRC=AIE04225A11 NRC=AIE04225A12 (1,B) Passed
+ 3 BB-01-C-25-02-Data2 O257 OK  BB-01(C) 25-02(D2) BB6648 AIR6449B41*        NRC=AIE04225A21 NRC=AIE04225A22 (1,B) Passed
+ 4 BB-01-D-25-02-Data3 O257 OK  BB-01(D) 25-02(D3) BB6648 AIR6449B41*        NRC=AIE04225A21 NRC=AIE04225A22 (1,B) Passed
+ 5 BB-01-E-25-03-Data2 O257 OK  BB-01(E) 25-03(D2) BB6648 AIR6449B41*        NRC=AIE04225A31 NRC=AIE04225A32 (1,B) Passed
+ 6 BB-01-F-25-03-Data3 O257 OK  BB-01(F) 25-03(D3) BB6648 AIR6449B41*        NRC=AIE04225A31 NRC=AIE04225A32 (1,B) Passed
+-------------------------------------------------------------------------------------------------------------------------------------
+
+=====================================================================================================================================
+IDs  RiLs                Issue and Recommended Actions.
+=====================================================================================================================================
+1    BB-01-A-25-01-Data2 Fiber Issue - Far End Reports Excessive Optical Power Loss.
+-------------------------------------------------------------------------------------------------------------------------------------
+ 1) Troubleshoot to determine where optical power is being lost or Bit Errors are detected.  Start at the  port fiber connection reporting the loss and work back to the transmitter on the other end. (i.e. dirty, damaged or bent fiber, improperly mated connection)
+ 2) Refer to and follow  Ericsson CPI "Handling SFP Modules and Optical Cables" for proper handling, Cleaning, inspection and testing of  fiber and optical interfaces.
+Note: Always check for any AlmID information and troubleshoot alarm(s) accordingly.
+*************************************************************************************************************************************
+
+Node: RadioNode N   CXP2010174/1_R71C54 (23.Q2)   NR-MB-TDD-SA-NSA
+
+=====================================================================================================================================
+FRU   ;LNH      ;BOARD       ;ST ;FAULT ;OPER ;MAINT ;STAT ;PRODUCTNUMBER   ;REV     ;SERIAL        ;DATE     ;PMTEMP ; TEMP ; UPT ;SW                   ;
+=====================================================================================================================================
+BB-01 ;000100   ;BB6648      ; 1 ;  OFF ;  ON ;  OFF ;  ON ;KDU1370015/11   ;R3A     ;E23C016793    ;20201022 ;4 (OK) ;      ;16.5 ;                     ;
+25-01 ;fru_2048 ;AIR6449B41* ; 1 ;  OFF ;  ON ;  OFF ; N/A ;KRD901141/11    ;R1E     ;E23C003407    ;20201018 ;4 (OK) ; 67.6 ;16.5 ;CXP2030038%1_R100E73 ; (AIR6449B41)
+25-02 ;fru_2049 ;AIR6449B41* ; 1 ;  OFF ;  ON ;  OFF ; N/A ;KRD901141/11    ;R1E     ;E23C003148    ;20201018 ;4 (OK) ; 58.8 ;16.5 ;CXP2030038%1_R100E73 ; (AIR6449B41)
+25-03 ;fru_2050 ;AIR6449B41* ; 1 ;  OFF ;  ON ;  OFF ; N/A ;KRD901141/11    ;R1E     ;E23C003153    ;20201018 ;4 (OK) ; 68.4 ;16.5 ;CXP2030038%1_R100E73 ; (AIR6449B41)
+-------------------------------------------------------------------------------------------------------------------------------------
+
+=====================================================================================================================================
+XPBOARD  ;ST ;FAULT ;OPER ;PRODUCTNUMBER ;REV ;SERIAL/NAME ;DATE     ; TEMP ;MO
+=====================================================================================================================================
+         ;   ;      ;     ;              ;    ;            ;         ;  999 ;Cabinet=1
+FAN08    ; 1 ;N/A   ;N/A  ;BKV106236/1   ;R2C ;CE5100DTT9  ;20200716 ;      ;SupportUnit=1 (FAN  BB-01)
+Unknown  ; 0 ;      ;     ;Unknown       ;Unknown ;Unknown     ;         ;      ;Synchronization=1,TimeSyncIO=1 (3:WaitForAnyMsg)
+-------------------------------------------------------------------------------------------------------------------------------------
+
+=====================================================================================================================================
+ID ;T ;RiL                 ;BPBP ;BOARD1      ;LNH1 ;PORT ;R ;LINK ;RATE  ; BER ;BOARD2      ;LNH2   ;PORT ;R ;LINK ;RATE  ; BER ;LENGTH ;MO1 - MO2
+=====================================================================================================================================
+ 1 ;O ;BB-01-A-25-01-Data2 ;1111 ;BB6648      ;000100 ; 1 ;M ;Up   ;25.7G ; 0/0 ;AIR6449B41* ;fru_2048 ; 1 ;S ;Up   ;25.7G ; 0/0 ;   43m ;Fru=BB-01(A) Fru=25-01(D2)
+ 2 ;O ;BB-01-B-25-01-Data3 ;1111 ;BB6648      ;000100 ; 2 ;M ;Up   ;25.7G ; 0/0 ;AIR6449B41* ;fru_2048 ; 2 ;S ;Up   ;25.7G ; 0/0 ;       ;Fru=BB-01(B) Fru=25-01(D3)
+ 3 ;O ;BB-01-C-25-02-Data2 ;1111 ;BB6648      ;000100 ; 3 ;M ;Up   ;25.7G ; 0/0 ;AIR6449B41* ;fru_2049 ; 1 ;S ;Up   ;25.7G ; 0/0 ;   42m ;Fru=BB-01(C) Fru=25-02(D2)
+ 4 ;O ;BB-01-D-25-02-Data3 ;1111 ;BB6648      ;000100 ; 4 ;M ;Up   ;25.7G ; 0/0 ;AIR6449B41* ;fru_2049 ; 2 ;S ;Up   ;25.7G ; 0/0 ;   42m ;Fru=BB-01(D) Fru=25-02(D3)
+ 5 ;O ;BB-01-E-25-03-Data2 ;1111 ;BB6648      ;000100 ; 5 ;M ;Up   ;25.7G ; 0/0 ;AIR6449B41* ;fru_2050 ; 1 ;S ;Up   ;25.7G ; 0/0 ;       ;Fru=BB-01(E) Fru=25-03(D2)
+ 6 ;O ;BB-01-F-25-03-Data3 ;1111 ;BB6648      ;000100 ; 6 ;M ;Up   ;25.7G ; 0/0 ;AIR6449B41* ;fru_2050 ; 2 ;S ;Up   ;25.7G ; 0/0 ;   43m ;Fru=BB-01(F) Fru=25-03(D3)
+-------------------------------------------------------------------------------------------------------------------------------------
+
+=====================================================================================================================================
+ID ;LINK ;RiL                 ;VENDOR1      ;VENDORPROD1      ;REV1 ;SERIAL1        ;DATE1    ;ERICSSONPROD1  ;VENDOR2      ;VENDORPROD2      ;REV2 ;SERIAL2        ;DATE2    ;ERICSSONPROD2  ;TT ;WL1     ;WL2    
+=====================================================================================================================================
+ 1 ;Up   ;BB-01-A-25-01-Data2 ;ERICSSON     ;FTLF1436W5BTD-E7 ;A    ;CD4S46A0GU     ;20201005 ;RDH10275/2 R1A ;ERICSSON     ;FTLF1436W5BTD-E7 ;A    ;CD4S4CA8QH     ;20201007 ;RDH10275/2 R1A ;0  ;1310.00 ;1310.00
+ 2 ;Up   ;BB-01-B-25-01-Data3 ;ERICSSON     ;FTLF1436W5BTD-E7 ;A    ;CD4S4EA4CW     ;20201021 ;RDH10275/2 R1A ;ERICSSON     ;FTLF1436W5BTD-E7 ;A    ;CD4S4CA3Y1     ;20200929 ;RDH10275/2 R1A ;0  ;1310.00 ;1310.00
+ 3 ;Up   ;BB-01-C-25-02-Data2 ;ERICSSON     ;FTLF1436W5BTD-E7 ;A    ;CD4S4AA3Y4     ;20201005 ;RDH10275/2 R1A ;ERICSSON     ;FTLF1436W5BTD-E7 ;A    ;CD4S4EA17P     ;20201021 ;RDH10275/2 R1A ;0  ;1310.00 ;1310.00
+ 4 ;Up   ;BB-01-D-25-02-Data3 ;ERICSSON     ;FTLF1436W5BTD-E7 ;A    ;CD4S4CA3WN     ;20200929 ;RDH10275/2 R1A ;ERICSSON     ;FTLF1436W5BTD-E7 ;A    ;CD4S47A2KX     ;20201007 ;RDH10275/2 R1A ;0  ;1310.00 ;1310.00
+ 5 ;Up   ;BB-01-E-25-03-Data2 ;ERICSSON     ;FTLF1436W5BTD-E7 ;A    ;CD4S4CA109     ;20200929 ;RDH10275/2 R1A ;ERICSSON     ;FTLF1436W5BTD-E7 ;A    ;CD4S4DA17M     ;20201007 ;RDH10275/2 R1A ;0  ;1310.00 ;1310.00
+ 6 ;Up   ;BB-01-F-25-03-Data3 ;ERICSSON     ;FTLF1436W5BTD-E7 ;A    ;CD4S47A03M     ;20201007 ;RDH10275/2 R1A ;ERICSSON     ;FTLF1436W5BTD-E7 ;A    ;CD4S4FA08L     ;20201020 ;RDH10275/2 R1A ;0  ;1310.00 ;1310.00
+-------------------------------------------------------------------------------------------------------------------------------------
+
+=====================================================================================================================================
+ID ;LINK ;RiL                 ;WL1     ;TEMP1 ;TXbs1 ;TXdBm1 ;RXdBm1 ;BER1   ;WL2     ;TEMP2 ;TXbs2 ;TXdBm2 ;RXdBm2 ;BER2   ;DlLoss ;UlLoss ;LENGTH ;TT
+=====================================================================================================================================
+ 1 ;Up   ;BB-01-A-25-01-Data2 ;1310.00 ;53C   ;64%   ;-1.52  ;-3.21  ; 1     ;1310.00 ;70C   ;65%   ;-2.06  ;-8.81  ; 0/0   ;  7.29 ;  1.15 ;   43m ; 0
+ 2 ;Up   ;BB-01-B-25-01-Data3 ;1310.00 ;52C   ;63%   ;-1.20  ;-1.64  ; 0/0   ;1310.00 ;67C   ;68%   ;-1.26  ;-1.52  ; 0/0   ;  0.32 ;  0.38 ;       ; 0
+ 3 ;Up   ;BB-01-C-25-02-Data2 ;1310.00 ;53C   ;64%   ;-1.32  ;-3.13  ; 0/0   ;1310.00 ;65C   ;66%   ;-1.78  ;-1.91  ; 4/4   ;  0.59 ;  1.35 ;   42m ; 0
+ 4 ;Up   ;BB-01-D-25-02-Data3 ;1310.00 ;52C   ;65%   ;-0.69  ;-2.77  ; 0/0   ;1310.00 ;63C   ;64%   ;-2.85  ;-1.10  ; 0/0   ;  0.41 ; -0.08 ;   42m ; 0
+ 5 ;Up   ;BB-01-E-25-03-Data2 ;1310.00 ;51C   ;64%   ;-1.05  ;-0.48  ; 0/0   ;1310.00 ;70C   ;74%   ;-0.10  ;-1.30  ; 0/0   ;  0.25 ;  0.38 ;       ; 0
+ 6 ;Up   ;BB-01-F-25-03-Data3 ;1310.00 ;49C   ;64%   ;-0.79  ;-3.30  ; 0/0   ;1310.00 ;68C   ;67%   ;-1.89  ;-2.17  ; 0/0   ;  1.38 ;  1.41 ;   43m ; 0
+-------------------------------------------------------------------------------------------------------------------------------------
+
+=====================================================================================================================================
+ID ;RiL                 ;BOARD       ;SFPLNH  ;PORT ;VENDOR       ;VENDORPROD       ;REV  ;SERIAL         ;DATE     ;ERICSSONPROD   ;WL      ;TEMP  ;TXbs  ;TXdBm  ;RXdBm  ; BER
+=====================================================================================================================================
+ 1 ;BB-01-A-25-01-Data2 ;BB6648      ;000100   ;  1 ;ERICSSON     ;FTLF1436W5BTD-E7 ;A    ;CD4S46A0GU     ;20201005 ;RDH10275/2 R1A ;1310.00 ;53C   ;64%   ;-1.52  ;-3.21  ; 0/0
+ 2 ;BB-01-B-25-01-Data3 ;BB6648      ;000100   ;  2 ;ERICSSON     ;FTLF1436W5BTD-E7 ;A    ;CD4S4EA4CW     ;20201021 ;RDH10275/2 R1A ;1310.00 ;52C   ;63%   ;-1.20  ;-1.64  ; 0/0
+ 3 ;BB-01-C-25-02-Data2 ;BB6648      ;000100   ;  3 ;ERICSSON     ;FTLF1436W5BTD-E7 ;A    ;CD4S4AA3Y4     ;20201005 ;RDH10275/2 R1A ;1310.00 ;53C   ;64%   ;-1.32  ;-3.13  ; 0/0
+ 4 ;BB-01-D-25-02-Data3 ;BB6648      ;000100   ;  4 ;ERICSSON     ;FTLF1436W5BTD-E7 ;A    ;CD4S4CA3WN     ;20200929 ;RDH10275/2 R1A ;1310.00 ;52C   ;65%   ;-0.69  ;-2.77  ; 0/0
+ 5 ;BB-01-E-25-03-Data2 ;BB6648      ;000100   ;  5 ;ERICSSON     ;FTLF1436W5BTD-E7 ;A    ;CD4S4CA109     ;20200929 ;RDH10275/2 R1A ;1310.00 ;51C   ;64%   ;-1.05  ;-0.48  ; 0/0
+ 6 ;BB-01-F-25-03-Data3 ;BB6648      ;000100   ;  6 ;ERICSSON     ;FTLF1436W5BTD-E7 ;A    ;CD4S47A03M     ;20201007 ;RDH10275/2 R1A ;1310.00 ;49C   ;64%   ;-0.79  ;-3.30  ; 0/0
+   ;                    ;AIR6449B41* ;fru_2048 ;  0 ;ERICSSON     ;FTLF1436W5BTD-E7 ;A    ;CD4S4CA3XY     ;20200929 ;RDH10275/2 R1A ;1310.00 ;67C   ;71%   ;-1.45  ;-1.44  ; 0/0
+ 1 ;BB-01-A-25-01-Data2 ;AIR6449B41* ;fru_2048 ;  1 ;ERICSSON     ;FTLF1436W5BTD-E7 ;A    ;CD4S4CA8QH     ;20201007 ;RDH10275/2 R1A ;1310.00 ;70C   ;65%   ;-2.06  ;-8.81  ; 0/0
+ 2 ;BB-01-B-25-01-Data3 ;AIR6449B41* ;fru_2048 ;  2 ;ERICSSON     ;FTLF1436W5BTD-E7 ;A    ;CD4S4CA3Y1     ;20200929 ;RDH10275/2 R1A ;1310.00 ;67C   ;68%   ;-1.26  ;-1.52  ; 0/0
+   ;                    ;AIR6449B41* ;fru_2048 ;  3 ;ERICSSON     ;FTLF1436W5BTD-E7 ;A    ;CD4S47A2VK     ;20201007 ;RDH10275/2 R1A ;1310.00 ;63C   ;69%   ;-1.59  ;-40.00 ; 0/0
+   ;                    ;AIR6449B41* ;fru_2049 ;  0 ;ERICSSON     ;FTLF1436W5BTD-E7 ;A    ;CD4S45A35C     ;20200928 ;RDH10275/2 R1A ;1310.00 ;63C   ;67%   ;-0.64  ;-1.98  ; 0/0
+ 3 ;BB-01-C-25-02-Data2 ;AIR6449B41* ;fru_2049 ;  1 ;ERICSSON     ;FTLF1436W5BTD-E7 ;A    ;CD4S4EA17P     ;20201021 ;RDH10275/2 R1A ;1310.00 ;65C   ;66%   ;-1.78  ;-1.91  ; 0/0
+ 4 ;BB-01-D-25-02-Data3 ;AIR6449B41* ;fru_2049 ;  2 ;ERICSSON     ;FTLF1436W5BTD-E7 ;A    ;CD4S47A2KX     ;20201007 ;RDH10275/2 R1A ;1310.00 ;63C   ;64%   ;-2.85  ;-1.10  ; 0/0
+   ;                    ;AIR6449B41* ;fru_2049 ;  3 ;ERICSSON     ;FTLF1436W5BTD-E7 ;A    ;CD4S4DA0MM     ;20201008 ;RDH10275/2 R1A ;1310.00 ;61C   ;70%   ;-1.52  ;-40.00 ; 0/0
+   ;                    ;AIR6449B41* ;fru_2050 ;  0 ;ERICSSON     ;FTLF1436W5BTD-E7 ;A    ;CD4S4CA4F1     ;20200929 ;RDH10275/2 R1A ;1310.00 ;68C   ;68%   ;-1.34  ;-3.09  ; 0/0
+ 5 ;BB-01-E-25-03-Data2 ;AIR6449B41* ;fru_2050 ;  1 ;ERICSSON     ;FTLF1436W5BTD-E7 ;A    ;CD4S4DA17M     ;20201007 ;RDH10275/2 R1A ;1310.00 ;70C   ;74%   ;-0.10  ;-1.30  ; 0/0
+ 6 ;BB-01-F-25-03-Data3 ;AIR6449B41* ;fru_2050 ;  2 ;ERICSSON     ;FTLF1436W5BTD-E7 ;A    ;CD4S4FA08L     ;20201020 ;RDH10275/2 R1A ;1310.00 ;68C   ;67%   ;-1.89  ;-2.17  ; 0/0
+   ;                    ;AIR6449B41* ;fru_2050 ;  3 ;ERICSSON     ;FTLF1436W5BTD-E7 ;A    ;CD4S46A1W2     ;20201006 ;RDH10275/2 R1A ;1310.00 ;68C   ;66%   ;-0.59  ;-40.00 ; 0/0
+-------------------------------------------------------------------------------------------------------------------------------------
+TN ;                    ;BB6648      ;000100   ; IB ;FINISARCORP. ;FTLX1370W4BTL    ;A    ;N4KBBER        ;20201122 ;NON-ERICSSON   ;NA      ;NA    ;NA    ;NA     ;NA     ; 0/0
+TN ;                    ;BB6648      ;000100   ; IC ;WTD          ;RTXM228-702-C27  ;1.0  ;EN202700092336 ;20200706 ;RDH10265/2 R1A ;NA      ;NA    ;NA    ;NA     ;NA     ; 0/0
+-------------------------------------------------------------------------------------------------------------------------------------
+
+=====================================================================================================================================
+BOARD  ;LNH    ;PORT     ;T ;S ;OpMode   ;AutoNeg ;MacAddress        ;VlanIds   ;LOS ;BER
+=====================================================================================================================================
+BB6648 ;000100 ;TN_IDL_B ;O ;1 ;10G_FULL ;false   ;1C:90:BE:38:2A:6D ;2513,4001 ;0   ;0/0
+BB6648 ;000100 ;TN_IDL_C ;O ;1 ;10G_FULL ;false   ;1C:90:BE:38:2A:6E ;4050,4060 ;0   ;0/0
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Last MO: 16556. Loaded 16556 MOs. Total: 16557 MOs.
+radioClockState : RNT_TIME_LOCKED
+-------------------------------------------------------------------------------------
+Prio  ;ST  ;syncRefType    ;refStatus   ;opQualLevel  ;SyncReference
+-------------------------------------------------------------------------------------
+  *1  ; 1  ;PTP_TIME       ;NO_FAULT    ;PRTC         ;Ptp=1,BoundaryOrdinaryClock=1 (G_8275_1 EthernetPort=TN_IDL_B:SLAVE)
+   2  ; L  ;GNSS_RECEIVER  ;GNSS_FAULT  ;QL_UNKNOWN   ;Synchronization=1,TimeSyncIO=1 (FieldReplaceableUnit=BB-01,SyncPort=1)
+-------------------------------------------------------------------------------------
+
+=====================================================================================================================================
+FRU   ;LNH      ;BOARD       ;RF  ;BP  ;TX (W/dBm)  ;VSWR (RL)   ;RX (dBm) ;UEs/gUEs  ;Sector/AntennaGroup/Cells (State:CellIds:PCIs)
+=====================================================================================================================================
+25-01 ;fru_2048 ;AIR6449B41* ; A  ;11  ;-           ;-           ;         ;-/-       ;SE=25-01* NRC=AIE04225A11 NRC=AIE04225A12 (1:301:288, B:311:288)
+25-02 ;fru_2049 ;AIR6449B41* ; A  ;11  ;-           ;-           ;         ;-/-       ;SE=25-02* NRC=AIE04225A21 NRC=AIE04225A22 (1:302:433, B:312:433)
+25-03 ;fru_2050 ;AIR6449B41* ; A  ;11  ;-           ;-           ;         ;-/-       ;SE=25-03* NRC=AIE04225A31 NRC=AIE04225A32 (1:303:23, B:313:23)
+ </pre><pre> <h2>-----:LVA61251A SDIR:-----:</h2>
+.............................
++--------+                         +----------+
+|        | A         O25        D1 | RRU-1-1  |
+|        |-----------1/1-----------| RRUS0ZB4 |
+|        |          OK-60m         | BXP_2048 |
+|        |                         +----------+
+|        |                              |A  |B
+|        |                           SE=1 AG=1
+|        |    FDD=LVA61251A11 NIOT=ZVA61251A11
+|        |
+|        |                      +-----------+
+|        | C        O25      D1 |  RRU-4-1  |
+|        |----------2/3---------| RRUS11B12 |
+|        |         OK-58m       | BXP_2049  |
+|        |                      +-----------+
+|        |                            |A  |B
+|        |                         SE=4 AG=4
+|        |                   FDD=DVA61251A11
+|        |
+|        |                         +----------+
+|        | D         O25        D2 | RRU-1-2  |
+|        |-----------3/4-----------| RRUS0ZB4 |
+|        |          OK-61m         | BXP_2050 |
+|        |                         +----------+
+|        |                              |A  |B
+|        |                           SE=1 AG=1
+|        |    FDD=LVA61251A11 NIOT=ZVA61251A11
+|        |
+|        |                         +----------+
+|        | F         O25        D1 | RRU-2-1  |
+|        |-----------4/6-----------| RRUS0ZB4 |
+|        |          OK-60m         | BXP_2051 |
+|        |                         +----------+
+|        |                              |A  |B
+|        |                           SE=2 AG=2
+|        |    FDD=LVA61251A21 NIOT=ZVA61251A21
+|        |
+|        |                      +-----------+
+|        | H        O25      D1 |  RRU-5-1  |
+|   1    |----------5/8---------| RRUS11B12 |
+| BB6630 |         OK-59m       | BXP_2052  |
+| 000100 |                      +-----------+
+|        |                            |A  |B
+|        |                         SE=5 AG=5
+|        |                   FDD=DVA61251A21
+|        |
+|        |                         +----------+
+|        | J         O25        D2 | RRU-2-2  |
+|        |-----------6/9-----------| RRUS0ZB4 |
+|        |          OK-61m         | BXP_2053 |
+|        |                         +----------+
+|        |                              |A  |B
+|        |                           SE=2 AG=2
+|        |    FDD=LVA61251A21 NIOT=ZVA61251A21
+|        |
+|        |                         +----------+
+|        | L         O25        D1 | RRU-3-1  |
+|        |-----------7/11----------| RRUS0ZB4 |
+|        |          OK-60m         | BXP_2054 |
+|        |                         +----------+
+|        |                              |A  |B
+|        |                           SE=3 AG=3
+|        |    FDD=LVA61251A31 NIOT=ZVA61251A31
+|        |
+|        |                      +-----------+
+|        | N        O25      D1 |  RRU-6-1  |
+|        |----------8/13--------| RRUS11B12 |
+|        |         OK-58m       | BXP_2055  |
+|        |                      +-----------+
+|        |                            |A  |B
+|        |                         SE=6 AG=6
+|        |                   FDD=DVA61251A31
+|        |
+|        |                         +----------+
+|        | P         O25        D2 | RRU-3-2  |
+|        |-----------9/14----------| RRUS0ZB4 |
+|        |          OK-61m         | BXP_2056 |
+|        |                         +----------+
+|        |                              |A  |B
+|        |                           SE=3 AG=3
++--------+    FDD=LVA61251A31 NIOT=ZVA61251A31
+
+=====================================================================================================================================
+ID RiL Type Res MO1-MO2          BOARD1-BOARD2    AlmIDs Cells (States)                         Issue (Failed checks)
+=====================================================================================================================================
+ 1 1   O25  OK  1(A) RRU-1-1(D1) BB6630 RRUS0ZB4         FDD=LVA61251A11 NIOT=ZVA61251A11 (1,1) Passed
+ 2 3   O25  OK  1(C) RRU-4-1(D1) BB6630 RRUS11B12        FDD=DVA61251A11 (1)                    Passed
+ 3 4   O25  OK  1(D) RRU-1-2(D2) BB6630 RRUS0ZB4         FDD=LVA61251A11 NIOT=ZVA61251A11 (1,1) Passed
+ 4 6   O25  OK  1(F) RRU-2-1(D1) BB6630 RRUS0ZB4         FDD=LVA61251A21 NIOT=ZVA61251A21 (1,1) Passed
+ 5 8   O25  OK  1(H) RRU-5-1(D1) BB6630 RRUS11B12        FDD=DVA61251A21 (1)                    Passed
+ 6 9   O25  OK  1(J) RRU-2-2(D2) BB6630 RRUS0ZB4         FDD=LVA61251A21 NIOT=ZVA61251A21 (1,1) Passed
+ 7 11  O25  OK  1(L) RRU-3-1(D1) BB6630 RRUS0ZB4         FDD=LVA61251A31 NIOT=ZVA61251A31 (1,1) Passed
+ 8 13  O25  OK  1(N) RRU-6-1(D1) BB6630 RRUS11B12        FDD=DVA61251A31 (1)                    Passed
+ 9 14  O25  OK  1(P) RRU-3-2(D2) BB6630 RRUS0ZB4         FDD=LVA61251A31 NIOT=ZVA61251A31 (1,1) Passed
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Node: RadioNode L   CXP9024418/15_R37C36 (21.Q3)   LTE-FDD,LTE-IoT 
+
+=====================================================================================================================================
+FRU     ;LNH      ;BOARD     ;ST ;FAULT ;OPER ;MAINT ;STAT ;PRODUCTNUMBER   ;REV     ;SERIAL        ;DATE     ;PMTEMP ; TEMP ; UPT ;
+=====================================================================================================================================
+1       ;000100   ;BB6630    ; 1 ;  OFF ;  ON ;  OFF ;  ON ;KDU137848/11    ;R3B     ;CF88185731    ;20200826 ;3 (OK) ;      ;85.4 ;
+RRU-1-1 ;BXP_2048 ;RRUS0ZB4  ; 1 ;  OFF ;  ON ;  OFF ; N/A ;KRC118034/1     ;R1C     ;D165335046    ;20130204 ;       ; 19.5 ;85.3 ; (AIR21B41,3M)
+RRU-4-1 ;BXP_2049 ;RRUS11B12 ; 1 ;  OFF ;  ON ;  OFF ; N/A ;KRC161241/2     ;R1C     ;CF83165050    ;20160324 ;       ; 11.9 ;85.3 ;
+RRU-1-2 ;BXP_2050 ;RRUS0ZB4  ; 1 ;  OFF ;  ON ;  OFF ; N/A ;KRC118034/1     ;R1C     ;D165335045    ;20130204 ;       ; 18.4 ;85.3 ; (AIR21B41,3M)
+RRU-2-1 ;BXP_2051 ;RRUS0ZB4  ; 1 ;  OFF ;  ON ;  OFF ; N/A ;KRC118034/1     ;R1C     ;D164529455    ;20121215 ;       ; 14.8 ;85.3 ; (AIR21B41,3M)
+RRU-5-1 ;BXP_2052 ;RRUS11B12 ; 1 ;  OFF ;  ON ;  OFF ; N/A ;KRC161241/2     ;R1C     ;CF83165052    ;20160324 ;       ; 17.5 ;85.3 ;
+RRU-2-2 ;BXP_2053 ;RRUS0ZB4  ; 1 ;  OFF ;  ON ;  OFF ; N/A ;KRC118034/1     ;R1C     ;D164529454    ;20121215 ;       ; 17.5 ;85.3 ; (AIR21B41,3M)
+RRU-3-1 ;BXP_2054 ;RRUS0ZB4  ; 1 ;  OFF ;  ON ;  OFF ; N/A ;KRC118034/1     ;R1C     ;D165706305    ;20130221 ;       ; 10.0 ;85.3 ; (AIR21B41,3M)
+RRU-6-1 ;BXP_2055 ;RRUS11B12 ; 1 ;  OFF ;  ON ;  OFF ; N/A ;KRC161241/2     ;R1C     ;CF83165051    ;20160324 ;       ; 15.4 ;85.3 ;
+RRU-3-2 ;BXP_2056 ;RRUS0ZB4  ; 1 ;  OFF ;  ON ;  OFF ; N/A ;KRC118034/1     ;R1C     ;D165706304    ;20130221 ;       ; 12.6 ;85.3 ; (AIR21B41,3M)
+BFU-1   ;Z??_001  ;BFU0102   ; 1 ;  OFF ;  ON ;  N/A ; N/A ;BMG980387/1     ;R1G     ;C941452103    ;20120911 ;       ;      ;     ;
+CLU     ;Z??_002  ;CLU       ; 1 ;  OFF ;  ON ;  N/A ; N/A ;BPD10440/3      ;R1B     ;BT90033115    ;20090126 ;       ;      ;     ;
+PDU-1   ;Z??_003  ;PDU0104   ; 1 ;  OFF ;  ON ;  N/A ; N/A ;BMG980336/7     ;R1B     ;C941447797    ;20120909 ;       ;      ;     ;
+PDU-2   ;Z??_004  ;PDU0104   ; 1 ;  OFF ;  ON ;  N/A ; N/A ;BMG980336/7     ;R1B     ;C941447796    ;20120909 ;       ;      ;     ;
+PDU-3   ;Z??_005  ;PDU0202   ; 1 ;  OFF ;  ON ;  N/A ; N/A ;BMG980336/5     ;R1X     ;C942072922    ;20151207 ;       ;      ;     ;
+PDU-4   ;Z??_006  ;PDU0202   ; 1 ;  OFF ;  ON ;  N/A ; N/A ;BMG980336/5     ;R1X     ;C942072912    ;20151207 ;       ;      ;     ;
+PSU-1   ;Z??_007  ;PSUAC01   ; 1 ;  OFF ;  ON ;  N/A ; N/A ;BML161174/1     ;R4A     ;BR88054336    ;20121025 ;       ;      ;     ;
+PSU-2   ;Z??_008  ;PSUAC01   ; 1 ;  OFF ;  ON ;  N/A ; N/A ;BML161174/1     ;R4A     ;BR88054317    ;20121025 ;       ;      ;     ;
+PSU-3   ;Z??_009  ;PSUAC01   ; 1 ;  OFF ;  ON ;  N/A ; N/A ;BML161174/1     ;R4A     ;BR88054291    ;20121025 ;       ;      ;     ;
+PSU-4   ;Z??_010  ;PSUAC01   ; 1 ;  OFF ;  ON ;  N/A ; N/A ;BML161174/1     ;R4A     ;BR88054187    ;20121025 ;       ;      ;     ;
+PSU-5   ;Z??_011  ;PSUAC01   ; 1 ;  OFF ;  ON ;  N/A ; N/A ;BML161174/1     ;R4A     ;BR84444493    ;20151225 ;       ;      ;     ;
+SAU-1   ;Z??_012  ;SAU0101   ; 1 ;  OFF ;  ON ;  N/A ; N/A ;ZHY60117/1      ;R1D     ;CR94208901    ;20121008 ;       ;      ;     ;
+SCU-1   ;Z??_013  ;SCU0101   ; 1 ;  OFF ;  ON ;  N/A ; N/A ;BGM1361006/1    ;R4A     ;CR94286359    ;20121016 ;       ;      ;     ;
+-------------------------------------------------------------------------------------------------------------------------------------
+
+=====================================================================================================================================
+AIR          ;PRODUCTNUMBER  ;REV    ;SERIAL      ;DATE      ;LNH
+=====================================================================================================================================
+AIR21B4AB2P  ;KRC118046/1    ;R3A/A  ;CQ30102424  ;20131016  ;BXP_2048 BXP_2050
+AIR21B4AB2P  ;KRC118046/1    ;R2A    ;CQ30088724  ;20130123  ;BXP_2051 BXP_2053
+AIR21B4AB2P  ;KRC118046/1    ;R3A/A  ;CQ30102538  ;20131021  ;BXP_2054 BXP_2056
+-------------------------------------------------------------------------------------------------------------------------------------
+
+=====================================================================================================================================
+AntennaNearUnit                       ;ST  ;TYPE   ;PRODUCTNR  ;REV       ;UNIQUEID             ;RfPort
+=====================================================================================================================================
+AntennaUnitGroup=1,AntennaNearUnit=1  ; 1  ;S-RET  ;16910526   ;HW_V_A02  ;KA037059400029_A1    ;FieldReplaceableUnit=RRU-1-1,RfPort=R
+AntennaUnitGroup=2,AntennaNearUnit=1  ; 1  ;S-RET  ;16910526   ;HW_V_A02  ;KA036747902841_A1    ;FieldReplaceableUnit=RRU-2-1,RfPort=R
+AntennaUnitGroup=3,AntennaNearUnit=1  ; 1  ;S-RET  ;16910526   ;HW_V_A02  ;KA037059400167_A1    ;FieldReplaceableUnit=RRU-3-1,RfPort=R
+AntennaUnitGroup=4,AntennaNearUnit=1  ; 1  ;S-RET  ;ATM3       ;2.0       ;AN0000CN10160738770  ;FieldReplaceableUnit=RRU-4-1,RfPort=R
+AntennaUnitGroup=5,AntennaNearUnit=1  ; 1  ;S-RET  ;ATM3       ;2.0       ;AN0000CN10160419137  ;FieldReplaceableUnit=RRU-5-1,RfPort=R
+AntennaUnitGroup=6,AntennaNearUnit=1  ; 1  ;S-RET  ;ATM3       ;2.0       ;AN0000CN10160738772  ;FieldReplaceableUnit=RRU-6-1,RfPort=R
+-------------------------------------------------------------------------------------------------------------------------------------
+
+=====================================================================================================================================
+XPBOARD   ;ST ;FAULT ;OPER ;PRODUCTNUMBER ;REV ;SERIAL/NAME ;DATE     ; TEMP ;MO
+=====================================================================================================================================
+          ; 1 ;      ;     ;              ;    ;            ;         ;      ;BatteryUnit=1
+RBS6131L  ;   ;      ;     ;BGM1361006/1  ;R1E ;CR94286359  ;20120828 ;   29 ;Cabinet=1
+FANGROUP  ;   ;OFF   ;     ;              ;    ;            ;         ;      ;Cabinet=1,FanGroup=1
+FANGROUP  ;   ;OFF   ;     ;              ;    ;            ;         ;      ;Cabinet=1,FanGroup=2
+FANGROUP  ;   ;OFF   ;     ;              ;    ;            ;         ;      ;Cabinet=1,FanGroup=3
+FANGROUP  ;   ;OFF   ;     ;              ;    ;            ;         ;      ;Cabinet=1,FanGroup=4
+FAN       ; 1 ;N/A   ;N/A  ;BKV106217/1   ;N/A ;N/A         ;N/A      ;      ;SupportUnit=1 (FAN  1)
+GPS0201   ; 1 ;      ;     ;NCD90141/1    ;R1D ;Unknown     ;         ;      ;Synchronization=1,TimeSyncIO=1 (7:OperationalWithValidTime)
+-------------------------------------------------------------------------------------------------------------------------------------
+
+=====================================================================================================================================
+ID ;T ;RiL ;BPBP ;BOARD1    ;LNH1 ;PORT ;R ;LINK ;RATE  ; BER ;BOARD2    ;LNH2   ;PORT ;R ;LINK ;RATE  ; BER ;LENGTH ;MO1 - MO2
+=====================================================================================================================================
+ 1 ;O ;  1 ;1111 ;BB6630    ;000100 ; 1 ;M ;Up   ;2.5G  ;   0 ;RRUS0ZB4  ;BXP_2048 ; 0 ;S ;Up   ;2.5G  ;   0 ;   60m ;Fru=1(A) Fru=RRU-1-1(D1)
+ 2 ;O ;  3 ;1111 ;BB6630    ;000100 ; 3 ;M ;Up   ;2.5G  ;   0 ;RRUS11B12 ;BXP_2049 ; 0 ;S ;Up   ;2.5G  ;   0 ;   58m ;Fru=1(C) Fru=RRU-4-1(D1)
+ 3 ;O ;  4 ;1111 ;BB6630    ;000100 ; 4 ;M ;Up   ;2.5G  ;   0 ;RRUS0ZB4  ;BXP_2050 ; 1 ;S ;Up   ;2.5G  ;   0 ;   61m ;Fru=1(D) Fru=RRU-1-2(D2)
+ 4 ;O ;  6 ;1111 ;BB6630    ;000100 ; 6 ;M ;Up   ;2.5G  ;   0 ;RRUS0ZB4  ;BXP_2051 ; 0 ;S ;Up   ;2.5G  ;   0 ;   60m ;Fru=1(F) Fru=RRU-2-1(D1)
+ 5 ;O ;  8 ;1111 ;BB6630    ;000100 ; 8 ;M ;Up   ;2.5G  ;   0 ;RRUS11B12 ;BXP_2052 ; 0 ;S ;Up   ;2.5G  ;   0 ;   59m ;Fru=1(H) Fru=RRU-5-1(D1)
+ 6 ;O ;  9 ;1111 ;BB6630    ;000100 ; 9 ;M ;Up   ;2.5G  ;   0 ;RRUS0ZB4  ;BXP_2053 ; 1 ;S ;Up   ;2.5G  ;   0 ;   61m ;Fru=1(J) Fru=RRU-2-2(D2)
+ 7 ;O ; 11 ;1111 ;BB6630    ;000100 ;11 ;M ;Up   ;2.5G  ;   0 ;RRUS0ZB4  ;BXP_2054 ; 0 ;S ;Up   ;2.5G  ;   0 ;   60m ;Fru=1(L) Fru=RRU-3-1(D1)
+ 8 ;O ; 13 ;1111 ;BB6630    ;000100 ;13 ;M ;Up   ;2.5G  ;   0 ;RRUS11B12 ;BXP_2055 ; 0 ;S ;Up   ;2.5G  ;   0 ;   58m ;Fru=1(N) Fru=RRU-6-1(D1)
+ 9 ;O ; 14 ;1111 ;BB6630    ;000100 ;14 ;M ;Up   ;2.5G  ;   0 ;RRUS0ZB4  ;BXP_2056 ; 1 ;S ;Up   ;2.5G  ;   0 ;   61m ;Fru=1(P) Fru=RRU-3-2(D2)
+-------------------------------------------------------------------------------------------------------------------------------------
+
+=====================================================================================================================================
+ID ;LINK ;RiL ;VENDOR1      ;VENDORPROD1      ;REV1 ;SERIAL1         ;DATE1    ;ERICSSONPROD1  ;VENDOR2      ;VENDORPROD2      ;REV2 ;SERIAL2         ;DATE2    ;ERICSSONPROD2 
+=====================================================================================================================================
+ 1 ;Up   ;  1 ;WTD          ;RTXM192-404-C24  ;3.0  ;EC132600300451  ;20130701 ;RDH10247/2 R1A ;WTD          ;RTXM192-404-C24  ;3.0  ;EC132600300455  ;20130701 ;RDH10247/2 R1A
+ 2 ;Up   ;  3 ;DELTA        ;LCP-2488B4HDRME1 ;A    ;1625061A0115037 ;20160620 ;RDH10247/2 R2A ;DELTA        ;LCP-2488B4HDRME1 ;A    ;1625061A0112975 ;20160618 ;RDH10247/2 R2A
+ 3 ;Up   ;  4 ;WTD          ;RTXM192-406-C24  ;3.0  ;EC152500241933  ;20150618 ;RDH10247/2 R2A ;DELTA        ;LCP-2488B4HDRT-E ;A    ;142406108016    ;20140610 ;RDH10247/2 R1A
+ 4 ;Up   ;  6 ;WTD          ;RTXM192-404-C24  ;3.0  ;EC132600300456  ;20130701 ;RDH10247/2 R1A ;WTD          ;RTXM192-404-C24  ;3.0  ;EB132600250067  ;20130703 ;RDH10247/2 R1A
+ 5 ;Up   ;  8 ;DELTA        ;LCP-2488B4HDRME1 ;A    ;1625061A0112562 ;20160618 ;RDH10247/2 R2A ;DELTA        ;LCP-2488B4HDRME1 ;A    ;1625061A0112965 ;20160618 ;RDH10247/2 R2A
+ 6 ;Up   ;  9 ;WTD          ;RTXM192-406-C24  ;3.0  ;EC152400170667  ;20150610 ;RDH10247/2 R2A ;DELTA        ;LCP-2488B4HDRT-E ;A    ;142406108279    ;20140610 ;RDH10247/2 R1A
+ 7 ;Up   ; 11 ;WTD          ;RTXM192-404-C24  ;3.0  ;EC132600300457  ;20130701 ;RDH10247/2 R1A ;WTD          ;RTXM192-404-C24  ;3.0  ;EB132600250072  ;20130703 ;RDH10247/2 R1A
+ 8 ;Up   ; 13 ;DELTA        ;LCP-2488B4HDRME1 ;A    ;1624061A0129190 ;20160618 ;RDH10247/2 R2A ;DELTA        ;LCP-2488B4HDRME1 ;A    ;1625061A0112970 ;20160618 ;RDH10247/2 R2A
+ 9 ;Up   ; 14 ;WTD          ;RTXM192-406-C24  ;3.0  ;EC152400170669  ;20150610 ;RDH10247/2 R2A ;DELTA        ;LCP-2488B4HDRT-E ;A    ;143006114240    ;20140726 ;RDH10247/2 R1A
+-------------------------------------------------------------------------------------------------------------------------------------
+
+=====================================================================================================================================
+ID ;LINK ;RiL ;WL1     ;TEMP1 ;TXbs1 ;TXdBm1 ;RXdBm1 ;BER1   ;WL2     ;TEMP2 ;TXbs2 ;TXdBm2 ;RXdBm2 ;BER2   ;DlLoss ;UlLoss
+=====================================================================================================================================
+ 1 ;Up   ;  1 ;1310.00 ;44C   ;20%   ;-4.92  ;-5.50  ;   0   ;1310.00 ;10C   ;15%   ;-4.98  ;-5.04  ;   0   ;  0.12 ;  0.52
+ 2 ;Up   ;  3 ;1310.00 ;48C   ;23%   ;-6.44  ;-8.86  ;   0   ;1310.00 ;20C   ;19%   ;-6.56  ;-7.03  ;   0   ;  0.59 ;   2.3
+ 3 ;Up   ;  4 ;1310.00 ;47C   ;21%   ;-5.35  ;-5.64  ;   0   ;1310.00 ;35C   ;27%   ;-6.02  ;-5.44  ;   0   ;  0.09 ; -0.38
+ 4 ;Up   ;  6 ;1310.00 ;45C   ;20%   ;-5.17  ;-5.13  ;   0   ;1310.00 ;19C   ;16%   ;-4.95  ;-6.11  ;   0   ;  0.94 ;  0.18
+ 5 ;Up   ;  8 ;1310.00 ;49C   ;21%   ;-6.48  ;-6.07  ;   0   ;1310.00 ;24C   ;17%   ;-6.25  ;-6.38  ;   0   ;  -0.1 ; -0.18
+ 6 ;Up   ;  9 ;1310.00 ;48C   ;20%   ;-5.59  ;-6.20  ;   0   ;1310.00 ;29C   ;28%   ;-5.90  ;-7.35  ;   0   ;  1.76 ;   0.3
+ 7 ;Up   ; 11 ;1310.00 ;44C   ;20%   ;-4.87  ;-4.19  ;   0   ;1310.00 ;15C   ;16%   ;-5.00  ;-4.78  ;   0   ; -0.09 ; -0.81
+ 8 ;Up   ; 13 ;1310.00 ;47C   ;19%   ;-6.46  ;-6.56  ;   0   ;1310.00 ;27C   ;22%   ;-6.40  ;-6.38  ;   0   ; -0.08 ;  0.16
+ 9 ;Up   ; 14 ;1310.00 ;47C   ;21%   ;-5.51  ;-6.93  ;   0   ;1310.00 ;30C   ;27%   ;-5.87  ;-6.04  ;   0   ;  0.53 ;  1.06
+-------------------------------------------------------------------------------------------------------------------------------------
+
+=====================================================================================================================================
+ID ;RiL ;BOARD     ;SFPLNH  ;PORT ;VENDOR       ;VENDORPROD       ;REV  ;SERIAL          ;DATE     ;ERICSSONPROD   ;WL      ;TEMP  ;TXbs  ;TXdBm  ;RXdBm  ; BER
+=====================================================================================================================================
+ 1 ;  1 ;BB6630    ;000100   ;  1 ;WTD          ;RTXM192-404-C24  ;3.0  ;EC132600300451  ;20130701 ;RDH10247/2 R1A ;1310.00 ;44C   ;20%   ;-4.92  ;-5.50  ;   0
+ 2 ;  3 ;BB6630    ;000100   ;  3 ;DELTA        ;LCP-2488B4HDRME1 ;A    ;1625061A0115037 ;20160620 ;RDH10247/2 R2A ;1310.00 ;48C   ;23%   ;-6.44  ;-8.86  ;   0
+ 3 ;  4 ;BB6630    ;000100   ;  4 ;WTD          ;RTXM192-406-C24  ;3.0  ;EC152500241933  ;20150618 ;RDH10247/2 R2A ;1310.00 ;47C   ;21%   ;-5.35  ;-5.64  ;   0
+ 4 ;  6 ;BB6630    ;000100   ;  6 ;WTD          ;RTXM192-404-C24  ;3.0  ;EC132600300456  ;20130701 ;RDH10247/2 R1A ;1310.00 ;45C   ;20%   ;-5.17  ;-5.13  ;   0
+ 5 ;  8 ;BB6630    ;000100   ;  8 ;DELTA        ;LCP-2488B4HDRME1 ;A    ;1625061A0112562 ;20160618 ;RDH10247/2 R2A ;1310.00 ;49C   ;21%   ;-6.48  ;-6.07  ;   0
+ 6 ;  9 ;BB6630    ;000100   ;  9 ;WTD          ;RTXM192-406-C24  ;3.0  ;EC152400170667  ;20150610 ;RDH10247/2 R2A ;1310.00 ;48C   ;20%   ;-5.59  ;-6.20  ;   0
+ 7 ; 11 ;BB6630    ;000100   ; 11 ;WTD          ;RTXM192-404-C24  ;3.0  ;EC132600300457  ;20130701 ;RDH10247/2 R1A ;1310.00 ;44C   ;20%   ;-4.87  ;-4.19  ;   0
+ 8 ; 13 ;BB6630    ;000100   ; 13 ;DELTA        ;LCP-2488B4HDRME1 ;A    ;1624061A0129190 ;20160618 ;RDH10247/2 R2A ;1310.00 ;47C   ;19%   ;-6.46  ;-6.56  ;   0
+ 9 ; 14 ;BB6630    ;000100   ; 14 ;WTD          ;RTXM192-406-C24  ;3.0  ;EC152400170669  ;20150610 ;RDH10247/2 R2A ;1310.00 ;47C   ;21%   ;-5.51  ;-6.93  ;   0
+ 1 ;  1 ;RRUS0ZB4  ;BXP_2048 ;  0 ;WTD          ;RTXM192-404-C24  ;3.0  ;EC132600300455  ;20130701 ;RDH10247/2 R1A ;1310.00 ;10C   ;15%   ;-4.98  ;-5.04  ;   0
+ 2 ;  3 ;RRUS11B12 ;BXP_2049 ;  0 ;DELTA        ;LCP-2488B4HDRME1 ;A    ;1625061A0112975 ;20160618 ;RDH10247/2 R2A ;1310.00 ;20C   ;19%   ;-6.56  ;-7.03  ;   0
+ 3 ;  4 ;RRUS0ZB4  ;BXP_2050 ;  1 ;DELTA        ;LCP-2488B4HDRT-E ;A    ;142406108016    ;20140610 ;RDH10247/2 R1A ;1310.00 ;35C   ;27%   ;-6.02  ;-5.44  ;   0
+ 4 ;  6 ;RRUS0ZB4  ;BXP_2051 ;  0 ;WTD          ;RTXM192-404-C24  ;3.0  ;EB132600250067  ;20130703 ;RDH10247/2 R1A ;1310.00 ;19C   ;16%   ;-4.95  ;-6.11  ;   0
+ 5 ;  8 ;RRUS11B12 ;BXP_2052 ;  0 ;DELTA        ;LCP-2488B4HDRME1 ;A    ;1625061A0112965 ;20160618 ;RDH10247/2 R2A ;1310.00 ;24C   ;17%   ;-6.25  ;-6.38  ;   0
+ 6 ;  9 ;RRUS0ZB4  ;BXP_2053 ;  1 ;DELTA        ;LCP-2488B4HDRT-E ;A    ;142406108279    ;20140610 ;RDH10247/2 R1A ;1310.00 ;29C   ;28%   ;-5.90  ;-7.35  ;   0
+ 7 ; 11 ;RRUS0ZB4  ;BXP_2054 ;  0 ;WTD          ;RTXM192-404-C24  ;3.0  ;EB132600250072  ;20130703 ;RDH10247/2 R1A ;1310.00 ;15C   ;16%   ;-5.00  ;-4.78  ;   0
+ 8 ; 13 ;RRUS11B12 ;BXP_2055 ;  0 ;DELTA        ;LCP-2488B4HDRME1 ;A    ;1625061A0112970 ;20160618 ;RDH10247/2 R2A ;1310.00 ;27C   ;22%   ;-6.40  ;-6.38  ;   0
+ 9 ; 14 ;RRUS0ZB4  ;BXP_2056 ;  1 ;DELTA        ;LCP-2488B4HDRT-E ;A    ;143006114240    ;20140726 ;RDH10247/2 R1A ;1310.00 ;30C   ;27%   ;-5.87  ;-6.04  ;   0
+-------------------------------------------------------------------------------------------------------------------------------------
+TN ;    ;BB6630    ;000100   ;  A ;FINISARCORP. ;FCLF8522P2BTL    ;A    ;N3MB8WU         ;20200530 ;NON-ERICSSON   ;NA      ;NA    ;NA    ;NA     ;NA     ; 0/0
+-------------------------------------------------------------------------------------------------------------------------------------
+
+=====================================================================================================================================
+BOARD  ;LNH    ;PORT ;T ;S ;OpMode  ;AutoNeg ;MacAddress        ;VlanIds   ;LOS ;BER
+=====================================================================================================================================
+BB6630 ;000100 ;TN_A ;O ;1 ;1G_FULL ;true    ;F0:B1:07:66:D0:76 ;2399,4001 ;0   ;0/0
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Last MO: 18049. Loaded 18049 MOs. Total: 18050 MOs.
+radioClockState : RNT_TIME_LOCKED
+-------------------------------------------------------------------------------------
+Prio  ;ST  ;syncRefType    ;refStatus  ;opQualLevel   ;SyncReference
+-------------------------------------------------------------------------------------
+  *1  ; 1  ;GNSS_RECEIVER  ;NO_FAULT   ;SSU_A_OR_TNC  ;Synchronization=1,TimeSyncIO=1 (FieldReplaceableUnit=1,SyncPort=1)
+   2  ; 1  ;NTP_FREQUENCY  ;NO_FAULT   ;SSU_A_OR_TNC  ;Ntp=1,NtpFrequencySync=1 (10.183.106.150:32751 Router=LTE,InterfaceIPv4=1,AddressIPv4=1)
+   3  ; 1  ;NTP_FREQUENCY  ;NO_FAULT   ;SSU_A_OR_TNC  ;Ntp=1,NtpFrequencySync=2 (10.183.106.151:32752 Router=LTE,InterfaceIPv4=1,AddressIPv4=1)
+-------------------------------------------------------------------------------------
+
+=====================================================================================================================================
+FRU     ;LNH      ;BOARD     ;RF  ;BP  ;TX (W/dBm)  ;VSWR (RL)   ;RX (dBm) ;UEs/gUEs  ;Sector/AntennaGroup/Cells (State:CellIds:PCIs)
+=====================================================================================================================================
+RRU-1-1 ;BXP_2048 ;RRUS0ZB4  ; A  ;1L  ;-           ;-           ;         ;10/-      ;SE=1 AG=1 FDD=LVA61251A11 NIOT=ZVA61251A11 (1:1:301, 1:200:301)
+RRU-1-1 ;BXP_2048 ;RRUS0ZB4  ; B  ;1L  ;N/A         ;N/A         ;         ;10/-      ;SE=1 AG=1 FDD=LVA61251A11 NIOT=ZVA61251A11 (1:1:301, 1:200:301)
+RRU-1-2 ;BXP_2050 ;RRUS0ZB4  ; A  ;1L  ;-           ;-           ;         ;10/-      ;SE=1 AG=1 FDD=LVA61251A11 NIOT=ZVA61251A11 (1:1:301, 1:200:301)
+RRU-1-2 ;BXP_2050 ;RRUS0ZB4  ; B  ;1L  ;N/A         ;N/A         ;         ;10/-      ;SE=1 AG=1 FDD=LVA61251A11 NIOT=ZVA61251A11 (1:1:301, 1:200:301)
+RRU-2-1 ;BXP_2051 ;RRUS0ZB4  ; A  ;1L  ;-           ;-           ;         ;9/-       ;SE=2 AG=2 FDD=LVA61251A21 NIOT=ZVA61251A21 (1:2:302, 1:201:302)
+RRU-2-1 ;BXP_2051 ;RRUS0ZB4  ; B  ;1L  ;N/A         ;N/A         ;         ;9/-       ;SE=2 AG=2 FDD=LVA61251A21 NIOT=ZVA61251A21 (1:2:302, 1:201:302)
+RRU-2-2 ;BXP_2053 ;RRUS0ZB4  ; A  ;1L  ;-           ;-           ;         ;9/-       ;SE=2 AG=2 FDD=LVA61251A21 NIOT=ZVA61251A21 (1:2:302, 1:201:302)
+RRU-2-2 ;BXP_2053 ;RRUS0ZB4  ; B  ;1L  ;N/A         ;N/A         ;         ;9/-       ;SE=2 AG=2 FDD=LVA61251A21 NIOT=ZVA61251A21 (1:2:302, 1:201:302)
+RRU-3-1 ;BXP_2054 ;RRUS0ZB4  ; A  ;1L  ;-           ;-           ;         ;8/-       ;SE=3 AG=3 FDD=LVA61251A31 NIOT=ZVA61251A31 (1:3:300, 1:202:300)
+RRU-3-1 ;BXP_2054 ;RRUS0ZB4  ; B  ;1L  ;N/A         ;N/A         ;         ;8/-       ;SE=3 AG=3 FDD=LVA61251A31 NIOT=ZVA61251A31 (1:3:300, 1:202:300)
+RRU-3-2 ;BXP_2056 ;RRUS0ZB4  ; A  ;1L  ;-           ;-           ;         ;8/-       ;SE=3 AG=3 FDD=LVA61251A31 NIOT=ZVA61251A31 (1:3:300, 1:202:300)
+RRU-3-2 ;BXP_2056 ;RRUS0ZB4  ; B  ;1L  ;N/A         ;N/A         ;         ;8/-       ;SE=3 AG=3 FDD=LVA61251A31 NIOT=ZVA61251A31 (1:3:300, 1:202:300)
+RRU-4-1 ;BXP_2049 ;RRUS11B12 ; A  ;11  ;-           ;1.14 (23.8) ;         ;1/-       ;SE=4 AG=4 FDD=DVA61251A11 (1:4:440)
+RRU-4-1 ;BXP_2049 ;RRUS11B12 ; B  ;11  ;-           ;1.18 (21.7) ;         ;1/-       ;SE=4 AG=4 FDD=DVA61251A11 (1:4:440)
+RRU-5-1 ;BXP_2052 ;RRUS11B12 ; A  ;11  ;-           ;1.25 (19.1) ;         ;68/-      ;SE=5 AG=5 FDD=DVA61251A21 (1:5:439)
+RRU-5-1 ;BXP_2052 ;RRUS11B12 ; B  ;11  ;-           ;1.13 (24.0) ;         ;68/-      ;SE=5 AG=5 FDD=DVA61251A21 (1:5:439)
+RRU-6-1 ;BXP_2055 ;RRUS11B12 ; A  ;11  ;-           ;1.18 (21.5) ;         ;1/-       ;SE=6 AG=6 FDD=DVA61251A31 (1:6:438)
+RRU-6-1 ;BXP_2055 ;RRUS11B12 ; B  ;11  ;-           ;1.20 (20.8) ;         ;1/-       ;SE=6 AG=6 FDD=DVA61251A31 (1:6:438)
+ </pre><pre> <h2>-----:UVA61251A2 INVXRC:-----:</h2>
+Node: RBS6131W                  CXP9023291/3_R4FA25 W15.0.2.5 (C15.0-EP19)
+
+=====================================================================================================================================
+SMN APN  BOARD    SWALLOCATION  S  FAULT OPER MAINT   c/p   d  PRODUCTNUMBER  REV   SERIAL     DATE     MO
+=====================================================================================================================================
+  0   1  DUW3001  Main_DUW      1  OFF   ON   OFF     56% 33%  KDU127161/3    R4F   TU8XE03576 20130716 1,Slot=1  (768/512 CE)
+-------------------------------------------------------------------------------------------------------------------------------------
+
+=====================================================================================================================================
+XPBOARD      ST  FAULT OPER MAINT  PRODUCTNUMBER   REV     SERIAL/NAME   DATE      TEMP MO (LNH)
+=====================================================================================================================================
+AIR21B2AB4P   1  OFF   ON   OFF    KRC118023/1     R3A     CQ30011585    20120719  19.6 SectorAntenna=1-1,AuxPlugInUnit=AIR-1 (000100/port_0_dev_10)
+AIR21B2AB4P   1  OFF   ON   OFF    KRC118023/1     R4B     D240049390    20130911  19.7 SectorAntenna=2-1,AuxPlugInUnit=AIR-1 (000100/port_1_dev_12)
+AIR21B2AB4P   1  OFF   ON   OFF    KRC118023/1     R4B     D240056005    20131023  15.9 SectorAntenna=3-1,AuxPlugInUnit=AIR-1 (000100/port_2_dev_14)
+RBS6131L                           BGM1361006/1    R1E     CR94286359    20120828       Cabinet=1
+ARETU         1  N/A   N/A  N/A    16910526        W_V_A02 5614904327_P1 00000000       ExternalAntenna=1-2,AuxPlugInUnit=2 (Z??_1)
+ARETU         1  N/A   N/A  N/A    16910526        W_V_A02 8403601490_P1 00000000       ExternalAntenna=2-2,AuxPlugInUnit=2 (Z??_2)
+ARETU         1  N/A   N/A  N/A    16910526        W_V_A02 8583102730_P1 00000000       ExternalAntenna=3-2,AuxPlugInUnit=2 (Z??_3)
+-------------------------------------------------------------------------------------------------------------------------------------
+
+=====================================================================================================================================
+MO            SMN  PRODUCT    PRODUCTNUMBER    REV     SERIAL/NAME     DATE      transmissionType     maxPwr  fanConfiguration  position
+=====================================================================================================================================
+Subrack=1       0  Subrack    SXK1098604/1     *       Radio Subrack             ETHERNET_CABLE       2500W   NO_CPP_FAN        0Z0
+
+=====================================================================================================================================
+ID T BOARD1      LNH1 PORT R LINK RATE   BER BOARD2      LNH2               PORT R LINK RATE   BER MO1 - MO2
+=====================================================================================================================================
+ 1 O DUW3001     000100  1 M Up   2.5G     0 AIR21B2AB4P 000100/port_0_dev_10  0 S Up   2.5G     0 1,Slot=1(A) 1-1,AuxPiu=AIR-1(D1)
+ 2 O DUW3001     000100  2 M Up   2.5G     0 AIR21B2AB4P 000100/port_1_dev_12  0 S Up   2.5G     0 1,Slot=1(B) 2-1,AuxPiu=AIR-1(D1)
+ 3 O DUW3001     000100  3 M Up   2.5G     0 AIR21B2AB4P 000100/port_2_dev_14  0 S Up   2.5G     0 1,Slot=1(C) 3-1,AuxPiu=AIR-1(D1)
+-------------------------------------------------------------------------------------------------------------------------------------
+
+=====================================================================================================================================
+ID LINK VENDOR1 VENDORPROD1      REV1 SERIAL1        DATE1    ERICSSONPROD1  VENDOR2 VENDORPROD2      REV2 SERIAL2        DATE2    ERICSSONPROD2 
+=====================================================================================================================================
+ 1 Up   WTD     RTXM192-404-C24  3.0  EC132600300459 20130701 RDH10247/2 R1A WTD     RTXM192-404-C24  3.0  EB132600250063 20130703 RDH10247/2 R1A
+ 2 Up   WTD     RTXM192-404-C24  3.0  EC132600300458 20130701 RDH10247/2 R1A DELTA   LCP-2488B4HDRT-E A    122706110602   20120705 RDH10247/2 R1A
+ 3 Up   WTD     RTXM192-404-C24  3.0  EC132600300460 20130701 RDH10247/2 R1A WTD     RTXM192-404-C24  3.0  EB132600250071 20130703 RDH10247/2 R1A
+-------------------------------------------------------------------------------------------------------------------------------------
+
+=====================================================================================================================================
+ID LINK WL1  TEMP1 TXbs1 TXdBm1 RXdBm1 BER1   WL2  TEMP2 TXbs2 TXdBm2 RXdBm2 BER2   DlLoss UlLoss
+=====================================================================================================================================
+ 1 Up   1310 27C   17%   -4.98  -5.90     3   1310 19C   16%   -5.00  -6.43     0     1.45    5.9
+ 2 Up   1310 28C   17%   -5.30  -7.37     0   1310 14C   21%   -6.47  -5.28     0    -4.02    0.9
+ 3 Up   1310 27C   18%   -4.97  -5.66     0   1310 21C   16%   -5.03  -5.07     2     4.6     0.63
+-------------------------------------------------------------------------------------------------------------------------------------
+
+=====================================================================================================================================
+ID BOARD       SFPLNH             PORT VENDOR  VENDORPROD       REV  SERIAL         DATE     ERICSSONPROD   WL   TEMP  TXbs  TXdBm  RXdBm   BER
+=====================================================================================================================================
+ 1 DUW3001     000100                1 WTD     RTXM192-404-C24  3.0  EC132600300459 20130701 RDH10247/2 R1A 1310 27C   17%   -4.98  -5.90     0
+ 2 DUW3001     000100                2 WTD     RTXM192-404-C24  3.0  EC132600300458 20130701 RDH10247/2 R1A 1310 28C   17%   -5.30  -7.37     0
+ 3 DUW3001     000100                3 WTD     RTXM192-404-C24  3.0  EC132600300460 20130701 RDH10247/2 R1A 1310 27C   18%   -4.97  -5.66     0
+ 1 AIR21B2AB4P 000100/port_0_dev_10  0 WTD     RTXM192-404-C24  3.0  EB132600250063 20130703 RDH10247/2 R1A 1310 19C   16%   -5.00  -6.43     0
+ 2 AIR21B2AB4P 000100/port_1_dev_12  0 DELTA   LCP-2488B4HDRT-E A    122706110602   20120705 RDH10247/2 R1A 1310 14C   21%   -6.47  -5.28     0
+ 3 AIR21B2AB4P 000100/port_2_dev_14  0 WTD     RTXM192-404-C24  3.0  EB132600250071 20130703 RDH10247/2 R1A 1310 21C   16%   -5.03  -5.07     0
+-------------------------------------------------------------------------------------------------------------------------------------
+
+=====================================================================================================================================
+AuxPiu    LNH                  BOARD       RF  TX (W/dBm)  VSWR (RL)    Sector/Cells (localCellIds/CellIds,PCIs)
+=====================================================================================================================================
+1-1/AIR-1 000100/port_0_dev_10 RRUS0ZB2     A  4.1 (36.2)  -            SR=1 S1C1 (12514)
+1-1/AIR-1 000100/port_0_dev_10 RRUS0ZB2     B  N/A         N/A          
+2-1/AIR-1 000100/port_1_dev_12 RRUS0ZB2     A  2.9 (34.6)  -            SR=2 S2C1 (12515)
+2-1/AIR-1 000100/port_1_dev_12 RRUS0ZB2     B  N/A         N/A          
+3-1/AIR-1 000100/port_2_dev_14 RRUS0ZB2     A  3.9 (36.0)  -            SR=3 S3C1 (12516)
+3-1/AIR-1 000100/port_2_dev_14 RRUS0ZB2     B  N/A         N/A          
+-------------------------------------------------------------------------------------------------------------------------------------
+Tip: use option "g" to print graphical view of CPRI connections and RF connections.
+
+UVA61251A2>  </pre>
