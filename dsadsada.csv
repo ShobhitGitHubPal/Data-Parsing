@@ -1,0 +1,10 @@
+,MO,linkRate,operationalState,riPortRef1,riPortRef2,Site Id,riLinkId
+0,RiLink=1,0 (NOT_SET), ENABLED,"FieldReplaceableUnit=1,RiPort=A","FieldReplaceableUnit=RRU-1-1,RiPort=DATA_1",LVA61251A,
+1,RiLink=11,0 (NOT_SET), ENABLED,"FieldReplaceableUnit=1,RiPort=L","FieldReplaceableUnit=RRU-3-1,RiPort=DATA_1",LVA61251A,
+2,RiLink=13,0 (NOT_SET), ENABLED,"FieldReplaceableUnit=1,RiPort=N","FieldReplaceableUnit=RRU-6-1,RiPort=DATA_1",LVA61251A,
+3,RiLink=14,0 (NOT_SET), ENABLED,"FieldReplaceableUnit=1,RiPort=P","FieldReplaceableUnit=RRU-3-2,RiPort=DATA_2",LVA61251A,
+4,RiLink=3,0 (NOT_SET), ENABLED,"FieldReplaceableUnit=1,RiPort=C","FieldReplaceableUnit=RRU-4-1,RiPort=DATA_1",LVA61251A,
+5,RiLink=4,0 (NOT_SET), ENABLED,"FieldReplaceableUnit=1,RiPort=D","FieldReplaceableUnit=RRU-1-2,RiPort=DATA_2",LVA61251A,
+6,RiLink=6,0 (NOT_SET), ENABLED,"FieldReplaceableUnit=1,RiPort=F","FieldReplaceableUnit=RRU-2-1,RiPort=DATA_1",LVA61251A,
+7,RiLink=8,0 (NOT_SET), ENABLED,"FieldReplaceableUnit=1,RiPort=H","FieldReplaceableUnit=RRU-5-1,RiPort=DATA_1",LVA61251A,
+8,RiLink=9,0 (NOT_SET), ENABLED,"FieldReplaceableUnit=1,RiPort=J","FieldReplaceableUnit=RRU-2-2,RiPort=DATA_2",LVA61251A,
